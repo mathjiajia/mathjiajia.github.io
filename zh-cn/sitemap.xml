@@ -101,6 +101,15 @@
                     hreflang="zh-cn"
                     href="http://mathjiajia.github.io/zh-cn/authors/"
                     /></url><url>
+            <loc>http://mathjiajia.github.io/zh-cn/notes/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://mathjiajia.github.io/notes/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://mathjiajia.github.io/zh-cn/notes/"
+                    /></url><url>
             <loc>http://mathjiajia.github.io/zh-cn/publications/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
