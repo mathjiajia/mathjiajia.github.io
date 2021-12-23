@@ -1,5 +1,6 @@
 # A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code
 
+
 There are dozens of TeX editors so far, such as Texpad and WinEdt.
 
 <!--more-->
@@ -30,11 +31,11 @@ The installation is easy.
 
 Follows the screenshot below to install the extension `LaTeX Workshop`.
 
-![install-extension](../img/install-extension.jpg "install-extension")
+![install-extension](https://mathjiajia.github.io/img/install-extension.jpg "install-extension")
 
 After doing that, you may press `Shift` + `Ctrl` + `P` (Windows) or `Shift` + `cmd` + `P` (macOS) to show all commands.
 Then type `Open Settings JSON` and open the first item (as shown below).
-![open-json](../img/open-json.jpg "open-json")
+![open-json](https://mathjiajia.github.io/img/open-json.jpg "open-json")
 
 Now copy and paste the following to your `json` file (inside the brackets `{}`).
 
@@ -133,7 +134,7 @@ Now you may open a `tex` file or create a new one.
 If you want to compile the file, press `Ctrl` + `Alt` + `B` (Windows) or `option` + `cmd` + `B` (macOS).
 Moreover, you may choose another recipes from the sidebar.
 There is button in the right top corner to preview `PDF` file.
-![tex-recipes](../img/tex-recipes.jpg "tex-recipes")
+![tex-recipes](https://mathjiajia.github.io/img/tex-recipes.jpg "tex-recipes")
 
 ### Reference: [LaTeX-Workshop Wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki)
 
