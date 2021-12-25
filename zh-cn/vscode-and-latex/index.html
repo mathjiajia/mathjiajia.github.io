@@ -38,7 +38,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/mathjiajia.github.io\/zh-cn\/vscode-and-latex\/"
-        },"image": ["http:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VS Code","wordcount":  456 ,
+        },"image": ["http:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VS Code","wordcount":  452 ,
         "url": "http:\/\/mathjiajia.github.io\/zh-cn\/vscode-and-latex\/","datePublished": "2021-11-30T18:00:00+08:00","dateModified": "2020-12-10T16:30:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -145,7 +145,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="http://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author">Jia Jia</a>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/zh-cn/categories/tools/"><i class="far fa-folder fa-fw"></i>tools</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/zh-cn/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2020-12-10">2020-12-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 456 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2020-12-10">2020-12-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 452 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/zh-cn/vscode-and-latex/" class="leancloud_visitors" data-flag-title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count id=twikoo_visitors></span>&nbsp;次阅读
                     </span>&nbsp;<span id="/zh-cn/vscode-and-latex/" class="comment_count" data-flag-title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code">
@@ -197,8 +197,8 @@
 <p>After encountered some wired bugs on Texpad, I decided to use native <a href="https://www.tug.org/texlive/" target="_blank" rel="noopener noreffer">TeX Live</a> / <a href="https://www.tug.org/mactex/" target="_blank" rel="noopener noreffer">MacTex</a>.
 However, TexShop (on macOS) does not have a pretty highlight system.
 It seems that the Visual Studio Code is one of the beast choice.</p>
-<h2 id="step-1-download--install-tex-live">Step 1. Download &amp; Install TeX Live</h2>
-<p>Windows users: download <code>texlive.iso</code> <a href="https://download.nus.edu.sg/mirror/ctan/systems/texlive/Images/" target="_blank" rel="noopener noreffer">here</a>.</p>
+<h2 id="step-1-download--install-tex-live" class="headerLink">
+    <a href="#step-1-download--install-tex-live" class="header-mark"></a>Step 1. Download &amp; Install TeX Live</h2><p>Windows users: download <code>texlive.iso</code> <a href="https://download.nus.edu.sg/mirror/ctan/systems/texlive/Images/" target="_blank" rel="noopener noreffer">here</a>.</p>
 <p>Mac users: download <code>MacTeX.pkg</code> <a href="https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener noreffer">here</a>.</p>
 <p>Here are some references for the installation:</p>
 <ul>
@@ -206,11 +206,11 @@ It seems that the Visual Studio Code is one of the beast choice.</p>
 <li><a href="https://www.tug.org/mactex/mactex-download.html" target="_blank" rel="noopener noreffer">Installing MacTeX</a></li>
 </ul>
 <p>For Windows users, after installation, you should add TeX Live executables to your system <code>PATH</code>.</p>
-<h2 id="step-2-download--install-visual-studio-code">Step 2. Download &amp; Install Visual Studio Code</h2>
-<p>You can download it <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer">here</a>.
+<h2 id="step-2-download--install-visual-studio-code" class="headerLink">
+    <a href="#step-2-download--install-visual-studio-code" class="header-mark"></a>Step 2. Download &amp; Install Visual Studio Code</h2><p>You can download it <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer">here</a>.
 The installation is easy.</p>
-<h2 id="step-3-install--config-latex-workshop">Step 3. Install &amp; Config LaTeX Workshop</h2>
-<p>Follows the screenshot below to install the extension <code>LaTeX Workshop</code>.</p>
+<h2 id="step-3-install--config-latex-workshop" class="headerLink">
+    <a href="#step-3-install--config-latex-workshop" class="header-mark"></a>Step 3. Install &amp; Config LaTeX Workshop</h2><p>Follows the screenshot below to install the extension <code>LaTeX Workshop</code>.</p>
 <p><figure><a class="lightgallery" href="/img/install-extension.jpg" title="install-extension" data-thumbnail="/img/install-extension.jpg" data-sub-html="<h2>install-extension</h2><p>install-extension</p>">
         <img
             class="lazyload"
@@ -412,8 +412,8 @@ Then type <code>Open Settings JSON</code> and open the first item (as shown belo
 <span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="step-4-write--compile">Step 4. Write &amp; Compile</h2>
-<p>Now you may open a <code>tex</code> file or create a new one.
+</div><h2 id="step-4-write--compile" class="headerLink">
+    <a href="#step-4-write--compile" class="header-mark"></a>Step 4. Write &amp; Compile</h2><p>Now you may open a <code>tex</code> file or create a new one.
 If you want to compile the file, press <code>Ctrl</code> + <code>Alt</code> + <code>B</code> (Windows) or <code>option</code> + <code>cmd</code> + <code>B</code> (macOS).
 Moreover, you may choose another recipes from the sidebar.
 There is button in the right top corner to preview <code>PDF</code> file.
@@ -427,7 +427,8 @@ There is button in the right top corner to preview <code>PDF</code> file.
         />
     </a><figcaption class="image-caption">tex-recipes</figcaption>
     </figure></p>
-<h3 id="reference-latex-workshop-wikihttpsgithubcomjames-yulatex-workshopwiki">Reference: <a href="https://github.com/James-Yu/LaTeX-Workshop/wiki" target="_blank" rel="noopener noreffer">LaTeX-Workshop Wiki</a></h3></div>
+Reference: <h3 id="reference-latex-workshop-wikihttpsgithubcomjames-yulatex-workshopwiki" class="headerLink">
+    <a href="#reference-latex-workshop-wikihttpsgithubcomjames-yulatex-workshopwiki" class="header-mark"></a><a href="https://github.com/James-Yu/LaTeX-Workshop/wiki" target="_blank" rel="noopener noreffer">LaTeX-Workshop Wiki</a></h3></div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
