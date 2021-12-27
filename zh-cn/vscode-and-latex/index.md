@@ -1,5 +1,6 @@
 # A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code
 
+
 There are dozens of TeX editors so far, such as Texpad and WinEdt.
 
 <!--more-->
