@@ -9,7 +9,7 @@ Now, I would like to share something about setting Neovim for VimTeX, UltiSnips 
 
 ## Step 0: Preparations
 
-If you are new to Neovim, I suggest you to start with [this configuration](nhttps://github.com/nvim-lua/kickstart.nvim.git).
+If you are new to Neovim, I suggest you to start with [this configuration](https://github.com/nvim-lua/kickstart.nvim.git).
 
 ## Step 1: VimTeX
 
