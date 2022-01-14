@@ -3,6 +3,10 @@
 
 some useful links/software
 
+### Version control
+
+- [Git](https://git-scm.com)
+
 #### PDF reader
 
 - [Skim](https://skim-app.sourceforge.io/): PDF reader and note-taker for OS X
@@ -16,7 +20,6 @@ some useful links/software
 #### Text Editing
 
 - [Neovim](https://neovim.io/): hyperextensible Vim-based text editor
-- [Sublime Text](https://www.sublimetext.com/): The sophisticated text editor for code, markup and prose
 - [Visual Studio Code](https://code.visualstudio.com/): a lightweight but powerful source code editor
 
 #### LaTeX Tools
