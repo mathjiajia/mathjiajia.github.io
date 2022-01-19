@@ -9,13 +9,29 @@ Now, I would like to share something about setting Neovim for VimTeX, UltiSnips 
 
 ## Step 0: Preparations
 
+Use a modern terminal, such as `kitty`, `alacritty` and `iTerm2`.
+
+The next thing that I recommend you to do is installing `Homebrew`.
+
 If you are new to Neovim, I suggest you to start with [this configuration](https://github.com/nvim-lua/kickstart.nvim.git).
+
+As in the last post, we need to install a `TeX` distribution.
+
 
 ## Step 1: VimTeX
 
+VimTeX is a powerful tool to 
+
 ## Step 2: UltiSnips
 
+Ultisnip is a snippet engine, which uses vim snippet to provide the actual
+snippet for various file types.
+
 ## Step 3: cmp
+
+When writing LaTeX source files, auto-completion is crucial for fast editing
+and improve our efficiency dramatically.
+VimTeX and LSP support auto-completion.
 
 ## TODO
 

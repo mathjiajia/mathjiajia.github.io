@@ -7,6 +7,14 @@
 
 ## Preprints
 
+### 2022
+
+- Equivariant Kaehler model for Fujiki's class
+
+  Jia Jia, [Sheng Meng](https://sites.google.com/view/shengmeng/home)
+
+  [arXiv](https://arxiv.org/abs/2201.06748) | [PDF](https://mathjiajia.github.io/pdf/2022equivariant.pdf)
+
 ### 2021
 
 - Potential density of projective varieties having an int-amplified endomorphism
