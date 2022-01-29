@@ -3,7 +3,12 @@
 
 ## Publication
 
-## Paper accepted
+- Potential density of projective varieties having an int-amplified endomorphism,
+  New York J. Math. (to appear)
+
+  Jia Jia, Takahiro Shibata, and [De-Qi, Zhang](https://blog.nus.edu.sg/matzdq/)
+
+  [arXiv](https://arxiv.org/abs/2108.11595) | [PDF](https://mathjiajia.github.io/pdf/2021potential.pdf)
 
 ## Preprints
 
@@ -16,12 +21,6 @@
   [arXiv](https://arxiv.org/abs/2201.06748) | [PDF](https://mathjiajia.github.io/pdf/2022equivariant.pdf)
 
 ### 2021
-
-- Potential density of projective varieties having an int-amplified endomorphism
-
-  Jia Jia, Takahiro Shibata, and [De-Qi, Zhang](https://blog.nus.edu.sg/matzdq/)
-
-  [arXiv](https://arxiv.org/abs/2108.11595) | [PDF](https://mathjiajia.github.io/pdf/2021potential.pdf)
 
 - Endomorphisms of quasi-projective varieties – towards Zariski dense orbit and Kawaguchi-Silverman conjectures
 
