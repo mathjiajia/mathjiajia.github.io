@@ -15,17 +15,17 @@ The next thing that I recommend you to do is installing `Homebrew`.
 
 If you are new to Neovim, I suggest you to start with [this configuration](https://github.com/nvim-lua/kickstart.nvim.git).
 
-As in the last post, we need to install a `TeX` distribution.
+Or, [here](https://github.com/mathjiajia/config.nvim) is my current configuration.
 
+As in the last post, we need to install a `TeX` distribution.
 
 ## Step 1: VimTeX
 
-VimTeX is a powerful tool to 
+VimTeX is a powerful tool to
 
-## Step 2: UltiSnips
+## Step 2: LuaSnip
 
-Ultisnip is a snippet engine, which uses vim snippet to provide the actual
-snippet for various file types.
+LuaSnip is a snippet engine, which provides the actual snippets for various file types.
 
 ## Step 3: cmp
 
@@ -35,9 +35,20 @@ VimTeX and LSP support auto-completion.
 
 ## TODO
 
+- [ ] finish Preparations
+- [ ] finish VimTeX
+- [ ] finish LuaSnip
+- [ ] finish cmp
+
 ## References
 
-- [A Complete Guide on Writing LaTeX with Vimtex in Neovim](https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/)
+1. [A Complete Guide on Writing LaTeX with Vimtex in Neovim](https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/)
 
-- [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)
+1. [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)
+
+1. [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim.git)
+
+1. [config.nvim](https://github.com/mathjiajia/config.nvim)
+
+1. ...
 

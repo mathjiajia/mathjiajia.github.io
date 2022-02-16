@@ -38,7 +38,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/mathjiajia.github.io\/neovim-vimtex\/"
-        },"image": ["http:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VimTeX, Neovim, Lua","wordcount":  151 ,
+        },"image": ["http:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VimTeX, Neovim, Lua","wordcount":  165 ,
         "url": "http:\/\/mathjiajia.github.io\/neovim-vimtex\/","datePublished": "2021-11-30T20:00:00+08:00","dateModified": "2021-11-30T20:00:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -144,7 +144,7 @@
   <ul>
     <li><a href="#step-0-preparations">Step 0: Preparations</a></li>
     <li><a href="#step-1-vimtex">Step 1: VimTeX</a></li>
-    <li><a href="#step-2-ultisnips">Step 2: UltiSnips</a></li>
+    <li><a href="#step-2-luasnip">Step 2: LuaSnip</a></li>
     <li><a href="#step-3-cmp">Step 3: cmp</a></li>
     <li><a href="#todo">TODO</a></li>
     <li><a href="#references">References</a></li>
@@ -154,7 +154,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="http://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author">Jia Jia</a>
                 </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/tools/"><i class="far fa-folder fa-fw"></i>tools</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;151 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;165 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;<span id="/neovim-vimtex/" class="leancloud_visitors" data-flag-title="A Quick Guide on Writing LaTeX with VimTeX in Neovim">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count id=twikoo_visitors></span>&nbsp;views
                     </span>&nbsp;<span id="/neovim-vimtex/" class="comment_count" data-flag-title="A Quick Guide on Writing LaTeX with VimTeX in Neovim">
@@ -180,7 +180,7 @@
   <ul>
     <li><a href="#step-0-preparations">Step 0: Preparations</a></li>
     <li><a href="#step-1-vimtex">Step 1: VimTeX</a></li>
-    <li><a href="#step-2-ultisnips">Step 2: UltiSnips</a></li>
+    <li><a href="#step-2-luasnip">Step 2: LuaSnip</a></li>
     <li><a href="#step-3-cmp">Step 3: cmp</a></li>
     <li><a href="#todo">TODO</a></li>
     <li><a href="#references">References</a></li>
@@ -192,26 +192,41 @@
     <a href="#step-0-preparations" class="header-mark"></a>Step 0: Preparations</h2><p>Use a modern terminal, such as <code>kitty</code>, <code>alacritty</code> and <code>iTerm2</code>.</p>
 <p>The next thing that I recommend you to do is installing <code>Homebrew</code>.</p>
 <p>If you are new to Neovim, I suggest you to start with <a href="https://github.com/nvim-lua/kickstart.nvim.git" target="_blank" rel="noopener noreffer">this configuration</a>.</p>
+<p>Or, <a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreffer">here</a> is my current configuration.</p>
 <p>As in the last post, we need to install a <code>TeX</code> distribution.</p>
 <h2 id="step-1-vimtex" class="headerLink">
     <a href="#step-1-vimtex" class="header-mark"></a>Step 1: VimTeX</h2><p>VimTeX is a powerful tool to</p>
-<h2 id="step-2-ultisnips" class="headerLink">
-    <a href="#step-2-ultisnips" class="header-mark"></a>Step 2: UltiSnips</h2><p>Ultisnip is a snippet engine, which uses vim snippet to provide the actual
-snippet for various file types.</p>
+<h2 id="step-2-luasnip" class="headerLink">
+    <a href="#step-2-luasnip" class="header-mark"></a>Step 2: LuaSnip</h2><p>LuaSnip is a snippet engine, which provides the actual snippets for various file types.</p>
 <h2 id="step-3-cmp" class="headerLink">
     <a href="#step-3-cmp" class="header-mark"></a>Step 3: cmp</h2><p>When writing LaTeX source files, auto-completion is crucial for fast editing
 and improve our efficiency dramatically.
 VimTeX and LSP support auto-completion.</p>
 <h2 id="todo" class="headerLink">
-    <a href="#todo" class="header-mark"></a>TODO</h2><h2 id="references" class="headerLink">
-    <a href="#references" class="header-mark"></a>References</h2><ul>
+    <a href="#todo" class="header-mark"></a>TODO</h2><ul>
+<li><i class="far fa-square fa-fw"></i> finish Preparations</li>
+<li><i class="far fa-square fa-fw"></i> finish VimTeX</li>
+<li><i class="far fa-square fa-fw"></i> finish LuaSnip</li>
+<li><i class="far fa-square fa-fw"></i> finish cmp</li>
+</ul>
+<h2 id="references" class="headerLink">
+    <a href="#references" class="header-mark"></a>References</h2><ol>
 <li>
 <p><a href="https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/" target="_blank" rel="noopener noreffer">A Complete Guide on Writing LaTeX with Vimtex in Neovim</a></p>
 </li>
 <li>
 <p><a href="https://castel.dev/post/lecture-notes-1/" target="_blank" rel="noopener noreffer">How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim</a></p>
 </li>
-</ul></div>
+<li>
+<p><a href="https://github.com/nvim-lua/kickstart.nvim.git" target="_blank" rel="noopener noreffer">kickstart.nvim</a></p>
+</li>
+<li>
+<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreffer">config.nvim</a></p>
+</li>
+<li>
+<p>&hellip;</p>
+</li>
+</ol></div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
