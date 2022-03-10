@@ -5,7 +5,8 @@ There are dozens of TeX editors so far, such as Texpad and WinEdt.
 
 <!--more-->
 
-After encountered some wired bugs on Texpad, I decided to use native [TeX Live](https://www.tug.org/texlive/) / [MacTex](https://www.tug.org/mactex/).
+After encountered some wired bugs on Texpad,
+I decided to use native [TeX Live](https://www.tug.org/texlive/) / [MacTex](https://www.tug.org/mactex/).
 However, TexShop (on macOS) does not have a pretty highlight system.
 It seems that the Visual Studio Code is one of the beast choice.
 
@@ -20,7 +21,8 @@ Here are some references for the installation:
 - [TeX Live on Windows](https://www.tug.org/texlive/windows.html)
 - [Installing MacTeX](https://www.tug.org/mactex/mactex-download.html)
 
-For Windows users, after installation, you should add TeX Live executables to your system `PATH`.
+For Windows users, after installation,
+you should add TeX Live executables to your system `PATH`.
 
 ## Step 2. Download & Install Visual Studio Code
 
@@ -33,7 +35,8 @@ Follows the screenshot below to install the extension `LaTeX Workshop`.
 
 ![install-extension](/img/install-extension.jpg "install-extension")
 
-After doing that, you may press `Shift` + `Ctrl` + `P` (Windows) or `Shift` + `cmd` + `P` (macOS) to show all commands.
+After doing that, you may press `Shift` + `Ctrl` + `P` (Windows)
+or `Shift` + `cmd` + `P` (macOS) to show all commands.
 Then type `Open Settings JSON` and open the first item (as shown below).
 ![open-json](/img/open-json.jpg "open-json")
 
@@ -131,7 +134,8 @@ Now copy and paste the following to your `json` file (inside the brackets `{}`).
 ## Step 4. Write & Compile
 
 Now you may open a `tex` file or create a new one.
-If you want to compile the file, press `Ctrl` + `Alt` + `B` (Windows) or `option` + `cmd` + `B` (macOS).
+If you want to compile the file,
+press `Ctrl` + `Alt` + `B` (Windows) or `option` + `cmd` + `B` (macOS).
 Moreover, you may choose another recipes from the sidebar.
 There is button in the right top corner to preview `PDF` file.
 ![tex-recipes](/img/tex-recipes.jpg "tex-recipes")
