@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://mathjiajia.github.io/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><priority>0</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/"
@@ -11,8 +11,8 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/neovim-latex/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mathjiajia.github.io/categories/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/neovim-latex/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://mathjiajia.github.io/categories/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/categories/"
@@ -21,7 +21,7 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/categories/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/series/editors/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/series/editors/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/series/editors/"
@@ -30,7 +30,7 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/series/editors/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/tags/latex/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/tags/latex/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/tags/latex/"
@@ -39,9 +39,9 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/tags/latex/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/tags/lua/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mathjiajia.github.io/tags/neovim/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mathjiajia.github.io/posts/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/tags/lua/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/neovim/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://mathjiajia.github.io/posts/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/posts/"
@@ -50,7 +50,7 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/posts/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/series/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/series/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/series/"
@@ -59,8 +59,8 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/series/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/tags/snippets/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mathjiajia.github.io/tags/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/tags/snippets/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/tags/"
@@ -69,7 +69,7 @@
                     hreflang="en"
                     href="https://mathjiajia.github.io/tags/"
                     /></url><url>
-            <loc>https://mathjiajia.github.io/categories/tools/</loc><lastmod>2021-11-30T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://mathjiajia.github.io/categories/tools/</loc><lastmod>2022-05-10T15:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://mathjiajia.github.io/zh-cn/categories/tools/"
