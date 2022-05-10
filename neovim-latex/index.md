@@ -12,7 +12,7 @@ Now, I would like to share something about setting `Neovim` for
 
 ### operating system
 
-I am using `Neovim` on `macOS`, and these configurations should work well on `Linux`.
+I am using `Neovim` on `macOS`, and these configurations should also work well on `Linux`.
 
 For `Windows` user, I recommend to install [WSL](https://doi.org/10.1070/IM8983).
 
