@@ -148,9 +148,13 @@ VimTeX and LSP support auto-completion.
 
 1. [How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/)
 
-1. [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim.git)
-
 1. [config.nvim](https://github.com/mathjiajia/config.nvim)
+
+1. [nvim-cmp](https://www.youtube.com/watch?v=_DnmphIwnjo&t=1471s)
+
+1. [Introduction to LuaSnip](https://www.youtube.com/watch?v=Dn800rlPIho&t=427s)
+
+1. [LuaSnips - Advanced Configuration](https://www.youtube.com/watch?v=KtQZRAkgLqo&t=14s)
 
 1. ...
 
