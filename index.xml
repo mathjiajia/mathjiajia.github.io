@@ -7,12 +7,12 @@
             <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate>
             <atom:link href="https://mathjiajia.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>A Quick Guide on Writing LaTeX with VimTeX in Neovim</title>
-    <link>https://mathjiajia.github.io/neovim-vimtex/</link>
+    <title>A Quick Guide on Writing LaTeX in Neovim</title>
+    <link>https://mathjiajia.github.io/neovim-latex/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/neovim-vimtex/</guid>
-    <description><![CDATA[<p>In last post, I shared a minimal configuration of LaTeX Workshop.</p>]]></description>
+    </author><guid>https://mathjiajia.github.io/neovim-latex/</guid>
+    <description><![CDATA[<p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>]]></description>
 </item><item>
     <title>A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</title>
     <link>https://mathjiajia.github.io/vscode-and-latex/</link>

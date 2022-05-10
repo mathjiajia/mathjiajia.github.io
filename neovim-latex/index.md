@@ -1,23 +1,44 @@
-# A Quick Guide on Writing LaTeX with VimTeX in Neovim
+# A Quick Guide on Writing LaTeX in Neovim
 
 
-In last post, I shared a minimal configuration of LaTeX Workshop.
+In last post, I shared a minimal configuration of `LaTeX Workshop`.
 
 <!--more-->
 
-Now, I would like to share something about setting Neovim for VimTeX, UltiSnips and auto-completion.
+Now, I would like to share something about setting `Neovim` for
+`VimTeX`, `texlab`, `LuaSnip` and auto-completion.
 
 ## Step 0: Preparations
 
+### operating system
+
+I am using `Neovim` on `macOS`, and these configurations should work well on `Linux`.
+
+For `Windows` user, I recommend to install [WSL](https://doi.org/10.1070/IM8983).
+
+### terminal
+
 Use a modern terminal, such as `kitty`, `alacritty` and `iTerm2`.
 
-The next thing that I recommend you to do is installing `Homebrew`.
+On macOS, the next thing that I recommend you to do is installing `Homebrew`.
+
+For the instructions, see [Homebrew](https://brew.sh).
+
+If you are using an M1 Mac,
+please check [here](https://mac.install.guide/homebrew/index.html) for more details,
+especially export `/opt/homebrew/` to your `$PATH`.
 
 If you are new to Neovim, I suggest you to start with [this configuration](https://github.com/nvim-lua/kickstart.nvim.git).
 
 Or, [here](https://github.com/mathjiajia/config.nvim) is my current configuration.
 
+### `TeX`
+
 As in the last post, we need to install a `TeX` distribution.
+
+### `Vim` / `Neovim` usage
+
+Follow this [repo](https://github.com/iggredible/Learn-Vim).
 
 ## Step 1: VimTeX
 
@@ -25,7 +46,8 @@ VimTeX is a powerful tool to
 
 ## Step 2: LuaSnip
 
-LuaSnip is a snippet engine, which provides the actual snippets for various file types.
+LuaSnip is a snippet engine, which provides the actual snippets
+for various file types.
 
 ## Step 3: cmp
 
