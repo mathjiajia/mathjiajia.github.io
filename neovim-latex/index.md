@@ -62,6 +62,11 @@ If you are new to Neovim, I suggest you to start with [this configuration](https
 
 [Here](https://github.com/mathjiajia/config.nvim) is my current configuration.
 
+### `Lua` *(optional)*
+
+Since `Lua` is the first-class language in `Neovim`, some basic knowledge of `Lua` will be better.
+If you want to costuming your own `Neovim`, you may want to learn [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide).
+
 ## Step 1: VimTeX
 
 VimTeX is a powerful tool to
