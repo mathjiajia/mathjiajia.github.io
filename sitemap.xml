@@ -1,18 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://mathjiajia.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2022-05-10T15:20:00+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://mathjiajia.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2020-12-10T16:30:00+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://mathjiajia.github.io/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><priority>0.19999999999999996</priority></url><url>
+            <loc>https://mathjiajia.github.io/neovim-latex/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/categories/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/series/editors/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/latex/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/lua/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/neovim/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/posts/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/series/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/snippets/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/categories/tools/</loc><lastmod>2022-05-10T15:20:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/vscode-and-latex/</loc><lastmod>2021-11-30T18:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/tags/vs-code/</loc><lastmod>2021-11-30T18:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/notes/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/publications/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/talks/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/teaching/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mathjiajia.github.io/utilities/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
