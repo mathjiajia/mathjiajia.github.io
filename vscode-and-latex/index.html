@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mathjiajia.github.io/vscode-and-latex/" /><meta property="og:image" content="https://mathjiajia.github.io/images/avatar.webp"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-30T18:00:00+08:00" />
-<meta property="article:modified_time" content="2021-11-30T18:00:00+08:00" /><meta property="og:site_name" content="Math Jia Jia" />
+<meta property="article:modified_time" content="2022-08-01T09:24:00+08:00" /><meta property="og:site_name" content="Math Jia Jia" />
 <meta property="og:see_also" content="https://mathjiajia.github.io/neovim-latex/" />
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -34,8 +34,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/mathjiajia.github.io\/vscode-and-latex\/"
-        },"image": ["https:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VS Code","wordcount":  446 ,
-        "url": "https:\/\/mathjiajia.github.io\/vscode-and-latex\/","datePublished": "2021-11-30T18:00:00+08:00","dateModified": "2021-11-30T18:00:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        },"image": ["https:\/\/mathjiajia.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, VS Code","wordcount":  452 ,
+        "url": "https:\/\/mathjiajia.github.io\/vscode-and-latex\/","datePublished": "2021-11-30T18:00:00+08:00","dateModified": "2022-08-01T09:24:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -124,7 +124,7 @@
   <ul>
     <li><a href="#step-1-download--install-tex-live">Step 1. Download &amp; Install TeX Live</a></li>
     <li><a href="#step-2-download--install-visual-studio-code">Step 2. Download &amp; Install Visual Studio Code</a></li>
-    <li><a href="#step-3-install--config-latex-workshop">Step 3. Install &amp; Config LaTeX Workshop</a></li>
+    <li><a href="#step-3-install--configure-latex-workshop">Step 3. Install &amp; Configure LaTeX Workshop</a></li>
     <li><a href="#step-4-write--compile">Step 4. Write &amp; Compile</a>
       <ul>
         <li><a href="#reference-latex-workshop-wikihttpsgithubcomjames-yulatex-workshopwiki">Reference: <a href="https://github.com/James-Yu/LaTeX-Workshop/wiki">LaTeX-Workshop Wiki</a></a></li>
@@ -136,7 +136,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author">Jia Jia</a>
                 </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/tools/"><i class="far fa-folder fa-fw"></i>tools</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;446 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-08-01">2022-08-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;452 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;<span id="/vscode-and-latex/" class="leancloud_visitors" data-flag-title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count" id=twikoo_visitors></span>&nbsp;views
                     </span>&nbsp;<span id="/vscode-and-latex/" class="comment_count" data-flag-title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code">
@@ -168,7 +168,7 @@
   <ul>
     <li><a href="#step-1-download--install-tex-live">Step 1. Download &amp; Install TeX Live</a></li>
     <li><a href="#step-2-download--install-visual-studio-code">Step 2. Download &amp; Install Visual Studio Code</a></li>
-    <li><a href="#step-3-install--config-latex-workshop">Step 3. Install &amp; Config LaTeX Workshop</a></li>
+    <li><a href="#step-3-install--configure-latex-workshop">Step 3. Install &amp; Configure LaTeX Workshop</a></li>
     <li><a href="#step-4-write--compile">Step 4. Write &amp; Compile</a>
       <ul>
         <li><a href="#reference-latex-workshop-wikihttpsgithubcomjames-yulatex-workshopwiki">Reference: <a href="https://github.com/James-Yu/LaTeX-Workshop/wiki">LaTeX-Workshop Wiki</a></a></li>
@@ -194,8 +194,8 @@ you should add TeX Live executables to your system <code>PATH</code>.</p>
 <h2 id="step-2-download--install-visual-studio-code" class="headerLink">
     <a href="#step-2-download--install-visual-studio-code" class="header-mark"></a>Step 2. Download &amp; Install Visual Studio Code</h2><p>You can download it <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer">here</a>.
 The installation is easy.</p>
-<h2 id="step-3-install--config-latex-workshop" class="headerLink">
-    <a href="#step-3-install--config-latex-workshop" class="header-mark"></a>Step 3. Install &amp; Config LaTeX Workshop</h2><p>Follows the screenshot below to install the extension <code>LaTeX Workshop</code>.</p>
+<h2 id="step-3-install--configure-latex-workshop" class="headerLink">
+    <a href="#step-3-install--configure-latex-workshop" class="header-mark"></a>Step 3. Install &amp; Configure LaTeX Workshop</h2><p>Follows the screenshot below to install the extension <code>LaTeX Workshop</code>.</p>
 <p><figure><a class="lightgallery" href="https://mathjiajia.github.io/img/install-extension.jpg" title="install-extension" data-thumbnail="https://mathjiajia.github.io/img/install-extension.jpg" data-sub-html="<h2>install-extension</h2><p>install-extension</p>">
         <img
             class="lazyload"
@@ -206,7 +206,7 @@ The installation is easy.</p>
     </a><figcaption class="image-caption">install-extension</figcaption>
     </figure></p>
 <p>After doing that, you may press <code>Shift</code> + <code>Ctrl</code> + <code>P</code> (Windows)
-or <code>Shift</code> + <code>cmd</code> + <code>P</code> (macOS) to show all commands.
+or <code>Shift</code> + <code>Cmd</code> + <code>P</code> (macOS) to show all commands.
 Then type <code>Open Settings JSON</code> and open the first item (as shown below).
 <figure><a class="lightgallery" href="https://mathjiajia.github.io/img/open-json.jpg" title="open-json" data-thumbnail="https://mathjiajia.github.io/img/open-json.jpg" data-sub-html="<h2>open-json</h2><p>open-json</p>">
         <img
@@ -217,7 +217,7 @@ Then type <code>Open Settings JSON</code> and open the first item (as shown belo
             alt="https://mathjiajia.github.io/img/open-json.jpg">
     </a><figcaption class="image-caption">open-json</figcaption>
     </figure></p>
-<p>Now copy and paste the following to your <code>json</code> file (inside the brackets <code>{}</code>).</p>
+<p>Now copy and paste the following two snippets into your <code>json</code> file (inside the brackets <code>{}</code> of your file).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -399,9 +399,9 @@ Then type <code>Open Settings JSON</code> and open the first item (as shown belo
 </div><h2 id="step-4-write--compile" class="headerLink">
     <a href="#step-4-write--compile" class="header-mark"></a>Step 4. Write &amp; Compile</h2><p>Now you may open a <code>tex</code> file or create a new one.
 If you want to compile the file,
-press <code>Ctrl</code> + <code>Alt</code> + <code>B</code> (Windows) or <code>option</code> + <code>cmd</code> + <code>B</code> (macOS).
+press <code>Ctrl</code> + <code>Alt</code> + <code>B</code> (Windows) or <code>option</code> + <code>Cmd</code> + <code>B</code> (macOS).
 Moreover, you may choose another recipes from the sidebar.
-There is button in the right top corner to preview <code>PDF</code> file.
+There is a button in the right top corner to preview <code>PDF</code> file.
 <figure><a class="lightgallery" href="https://mathjiajia.github.io/img/tex-recipes.jpg" title="tex-recipes" data-thumbnail="https://mathjiajia.github.io/img/tex-recipes.jpg" data-sub-html="<h2>tex-recipes</h2><p>tex-recipes</p>">
         <img
             class="lazyload"
@@ -418,7 +418,7 @@ There is button in the right top corner to preview <code>PDF</code> file.
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2021-11-30</span>
+                <span>Updated on 2022-08-01</span>
             </div>
             <div class="post-info-license"></div>
         </div>

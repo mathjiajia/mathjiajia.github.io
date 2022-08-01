@@ -29,18 +29,18 @@ you should add TeX Live executables to your system `PATH`.
 You can download it [here](https://code.visualstudio.com/).
 The installation is easy.
 
-## Step 3. Install & Config LaTeX Workshop
+## Step 3. Install & Configure LaTeX Workshop
 
 Follows the screenshot below to install the extension `LaTeX Workshop`.
 
 ![install-extension](https://mathjiajia.github.io/img/install-extension.jpg "install-extension")
 
 After doing that, you may press `Shift` + `Ctrl` + `P` (Windows)
-or `Shift` + `cmd` + `P` (macOS) to show all commands.
+or `Shift` + `Cmd` + `P` (macOS) to show all commands.
 Then type `Open Settings JSON` and open the first item (as shown below).
 ![open-json](https://mathjiajia.github.io/img/open-json.jpg "open-json")
 
-Now copy and paste the following to your `json` file (inside the brackets `{}`).
+Now copy and paste the following two snippets into your `json` file (inside the brackets `{}` of your file).
 
 ```json
 "latex-workshop.latex.tools": [
@@ -135,9 +135,9 @@ Now copy and paste the following to your `json` file (inside the brackets `{}`).
 
 Now you may open a `tex` file or create a new one.
 If you want to compile the file,
-press `Ctrl` + `Alt` + `B` (Windows) or `option` + `cmd` + `B` (macOS).
+press `Ctrl` + `Alt` + `B` (Windows) or `option` + `Cmd` + `B` (macOS).
 Moreover, you may choose another recipes from the sidebar.
-There is button in the right top corner to preview `PDF` file.
+There is a button in the right top corner to preview `PDF` file.
 ![tex-recipes](https://mathjiajia.github.io/img/tex-recipes.jpg "tex-recipes")
 
 ### Reference: [LaTeX-Workshop Wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki)
