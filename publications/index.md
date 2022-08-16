@@ -15,7 +15,7 @@
 
 1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
    Jia Jia,
-   [arXiv:2201.06748](https://arxiv.org/abs/2208.07336)
+   [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
    | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
 
 1. Equivariant Kähler model for Fujiki's class,
