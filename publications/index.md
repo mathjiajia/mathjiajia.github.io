@@ -13,7 +13,12 @@
 
 ## Preprints
 
-1. Equivariant Kaehler model for Fujiki's class,
+1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
+   Jia Jia,
+   [arXiv:2201.06748](https://arxiv.org/abs/2208.07336)
+   | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
+
+1. Equivariant Kähler model for Fujiki's class,
    Jia Jia
    and [Sheng Meng](https://sites.google.com/view/shengmeng/home),
    [arXiv:2201.06748](https://arxiv.org/abs/2201.06748)
