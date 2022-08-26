@@ -13,6 +13,12 @@
 
 ## Preprints
 
+1. Moishezon manifolds with no nef and big classes
+   Jia Jia
+   and [Sheng Meng](https://sites.google.com/view/shengmeng/home),
+   [arXiv:2208.12013](https://arxiv.org/abs/2208.12013)
+   | [PDF](https://mathjiajia.github.io/pdf/2022nefbig.pdf)
+
 1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
    Jia Jia,
    [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
