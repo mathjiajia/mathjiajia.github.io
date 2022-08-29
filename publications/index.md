@@ -34,7 +34,7 @@
    and Kawaguchi-Silverman conjectures,
    Jia Jia,
    Takahiro Shibata,
-   [Junyi Xie](https://sites.google.com/site/junyixiemath/home),
+   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
    and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
    [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
    | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
@@ -48,7 +48,7 @@
 1. Surjective endomorphisms of projective surfaces - the existence of
    infinitely many dense orbits,
    Jia Jia,
-   [Junyi Xie](https://sites.google.com/site/junyixiemath/home),
+   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
    and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
    [arXiv:2005.03628](https://arxiv.org/abs/2005.03628) | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf)
 
