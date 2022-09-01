@@ -11,6 +11,13 @@
    [arXiv:2108.11595](https://arxiv.org/abs/2108.11595)
    | [PDF](http://nyjm.albany.edu/j/2022/28-17v.pdf)
 
+1. Amplified endomorphisms of Fano fourfolds,
+   manuscripta mathematica (to appear),
+   Jia Jia
+   and [Guolei Zhong](https://sites.google.com/view/guoleizhongshomepage/home),
+   [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
+   | [PDF](https://mathjiajia.github.io/pdf/2020amplified.pdf)
+
 ## Preprints
 
 1. Moishezon manifolds with no nef and big classes
@@ -38,12 +45,6 @@
    and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
    [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
    | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
-
-1. Amplified endomorphisms of Fano fourfolds,
-   Jia Jia
-   and [Guolei Zhong](https://sites.google.com/view/guoleizhongshomepage/home),
-   [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
-   | [PDF](https://mathjiajia.github.io/pdf/2020amplified.pdf)
 
 1. Surjective endomorphisms of projective surfaces - the existence of
    infinitely many dense orbits,
