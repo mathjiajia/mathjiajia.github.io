@@ -101,7 +101,7 @@ Then `LusSnip` with insert `space` when the next character after snippet is a le
 Note that for `non-letter` characters, `LusSnip` will not insert `space`.
 
 ```lua
-s({ trig = 'ref', name = 'cross refrence' }, {
+s({ trig = 'cite', name = 'cross refrence' }, {
         t '\\cite[',
         i(1),
         t ']{',
@@ -122,9 +122,9 @@ s({ trig = 'ref', name = 'cross refrence' }, {
     })
 ```
 
-I use `ref` as the trigger for cross-references snippet.
-Because cross-references are not often used in the text, I set `ref` as a normal snippet:
-after typing `ref`, you need to press `Ctrl + j` to expand the snippet and get something like `\cite[|]{}`.
+I use `cite` as the trigger for cross-references snippet.
+Because cross-references are not often used in the text, I set `cite` as a normal snippet:
+after typing `cite`, you need to press `Ctrl + j` to expand the snippet and get something like `\cite[|]{}`.
 Then you can input some text in the square brackets, and then press `Ctrl + j` to jump to the curly braces.
 According to the settings, you will see a dropdown with the list of all the references in the document.
 This is a powerful feature, thanks to `LuaSnip` and `telescope-bibtex`.

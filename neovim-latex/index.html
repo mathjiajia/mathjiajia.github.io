@@ -141,7 +141,7 @@
 </nav></div>
     </div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle", "wide")</script><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">A Quick Guide on Writing LaTeX in Neovim</h1><div class="post-meta">
             <div class="post-meta-line">
-                <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author">Jia Jia</a>
+                <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreferrer author" class="author">Jia Jia</a>
                 </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/tools/"><i class="far fa-folder fa-fw"></i>tools</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-05-10">2022-05-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;695 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;<span id="/neovim-latex/" class="leancloud_visitors" data-flag-title="A Quick Guide on Writing LaTeX in Neovim">
@@ -187,20 +187,20 @@
             </div><div class="content" id="content"><p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>
 <p>Now, I would like to share something about setting <code>Neovim</code> for
 <code>VimTeX</code>, <code>texlab</code>, <code>LuaSnip</code> and auto-completion.</p>
-<p>This may not be suitable for everyone, especially for those who are not familiar with <a href="https://en.wikipedia.org/wiki/Text-based_user_interface" target="_blank" rel="noopener noreffer">TUI</a>.</p>
+<p>This may not be suitable for everyone, especially for those who are not familiar with <a href="https://en.wikipedia.org/wiki/Text-based_user_interface" target="_blank" rel="noopener noreferrer">TUI</a>.</p>
 <h2 id="step-0-preparations" class="headerLink">
     <a href="#step-0-preparations" class="header-mark"></a>Step 0: Preparations</h2><h3 id="operating-system" class="headerLink">
     <a href="#operating-system" class="header-mark"></a>operating system</h3><p>I am using <code>Neovim</code> on <code>macOS</code>, and these configurations should also work well on <code>Linux</code>.</p>
-<p>For <code>Windows</code> user, I recommend to install <a href="https://doi.org/10.1070/IM8983" target="_blank" rel="noopener noreffer">WSL</a>.</p>
+<p>For <code>Windows</code> user, I recommend to install <a href="https://doi.org/10.1070/IM8983" target="_blank" rel="noopener noreferrer">WSL</a>.</p>
 <h3 id="terminal" class="headerLink">
     <a href="#terminal" class="header-mark"></a>terminal</h3><p>Use a modern terminal, such as <code>kitty</code>, <code>alacritty</code> and <code>iTerm2</code>.</p>
 <p>On macOS, the next thing that I recommend you to do is installing <code>Homebrew</code>.
-<a href="https://brew.sh" target="_blank" rel="noopener noreffer">Here</a> is the installation guide.</p>
+<a href="https://brew.sh" target="_blank" rel="noopener noreferrer">Here</a> is the installation guide.</p>
 <p>If you are using an M1 Mac,
-please check <a href="https://mac.install.guide/homebrew/index.html" target="_blank" rel="noopener noreffer">here</a> for more details,
+please check <a href="https://mac.install.guide/homebrew/index.html" target="_blank" rel="noopener noreferrer">here</a> for more details,
 especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 <h3 id="tex" class="headerLink">
-    <a href="#tex" class="header-mark"></a><code>TeX</code></h3><p>As in the <a href="https://mathjiajia.github.io/vscode-and-latex/" target="_blank" rel="noopener noreffer">last post</a>, we need to install a <code>TeX</code> distribution.</p>
+    <a href="#tex" class="header-mark"></a><code>TeX</code></h3><p>As in the <a href="https://mathjiajia.github.io/vscode-and-latex/" target="_blank" rel="noopener noreferrer">last post</a>, we need to install a <code>TeX</code> distribution.</p>
 <p>For <code>macOS</code> users, you may download <code>mactex-no-gui</code> via <code>Homebrew</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -211,7 +211,7 @@ especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="install-neovim" class="headerLink">
-    <a href="#install-neovim" class="header-mark"></a>Install <code>Neovim</code></h3><p><a href="https://github.com/neovim/neovim/wiki/Installing-Neovim" target="_blank" rel="noopener noreffer">Here</a> is the official instructions for installing <code>Neovim</code> on different platforms.</p>
+    <a href="#install-neovim" class="header-mark"></a>Install <code>Neovim</code></h3><p><a href="https://github.com/neovim/neovim/wiki/Installing-Neovim" target="_blank" rel="noopener noreferrer">Here</a> is the official instructions for installing <code>Neovim</code> on different platforms.</p>
 <p>For <code>macOS</code> users, you can install <code>Neovim</code> with <code>Homebrew</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -225,12 +225,12 @@ especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 Please ensure that you have the correct version (&gt;= 0.7).</p>
 <h3 id="vim--neovim-usage" class="headerLink">
     <a href="#vim--neovim-usage" class="header-mark"></a><code>Vim</code> / <code>Neovim</code> usage</h3><p>Since <code>Neovim</code> is a fork of <code>Vim</code>, the basic usage is the same.</p>
-<p>Follow this <a href="https://github.com/iggredible/Learn-Vim" target="_blank" rel="noopener noreffer">repo</a> to learn how to use <code>Vim</code> and <code>Neovim</code>.</p>
-<p>If you are new to Neovim, I suggest you to start with <a href="https://github.com/nvim-lua/kickstart.nvim.git" target="_blank" rel="noopener noreffer">this configuration</a>.</p>
-<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreffer">Here</a> is my current configuration.</p>
+<p>Follow this <a href="https://github.com/iggredible/Learn-Vim" target="_blank" rel="noopener noreferrer">repo</a> to learn how to use <code>Vim</code> and <code>Neovim</code>.</p>
+<p>If you are new to Neovim, I suggest you to start with <a href="https://github.com/nvim-lua/kickstart.nvim.git" target="_blank" rel="noopener noreferrer">this configuration</a>.</p>
+<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreferrer">Here</a> is my current configuration.</p>
 <h3 id="lua-optional" class="headerLink">
     <a href="#lua-optional" class="header-mark"></a><code>Lua</code> <em>(optional)</em></h3><p>Since <code>Lua</code> is the first-class language in <code>Neovim</code>, some basic knowledge of <code>Lua</code> will be better.
-If you want to costuming your own <code>Neovim</code>, you may want to learn <a href="https://github.com/nanotee/nvim-lua-guide" target="_blank" rel="noopener noreffer">nvim-lua-guide</a>.</p>
+If you want to costuming your own <code>Neovim</code>, you may want to learn <a href="https://github.com/nanotee/nvim-lua-guide" target="_blank" rel="noopener noreferrer">nvim-lua-guide</a>.</p>
 <h2 id="step-1-vimtex" class="headerLink">
     <a href="#step-1-vimtex" class="header-mark"></a>Step 1: VimTeX</h2><p>VimTeX is a powerful tool to</p>
 <h2 id="step-2-luasnip" class="headerLink">
@@ -294,7 +294,7 @@ Note that for <code>non-letter</code> characters, <code>LusSnip</code> will not 
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">s</span><span class="p">({</span> <span class="n">trig</span> <span class="o">=</span> <span class="s1">&#39;ref&#39;</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;cross refrence&#39;</span> <span class="p">},</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">s</span><span class="p">({</span> <span class="n">trig</span> <span class="o">=</span> <span class="s1">&#39;cite&#39;</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;cross refrence&#39;</span> <span class="p">},</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">t</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">cite[&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="n">i</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span>
 </span></span><span class="line"><span class="cl">        <span class="n">t</span> <span class="s1">&#39;]{&#39;</span><span class="p">,</span>
@@ -315,9 +315,9 @@ Note that for <code>non-letter</code> characters, <code>LusSnip</code> will not 
 </span></span><span class="line"><span class="cl">    <span class="p">})</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>I use <code>ref</code> as the trigger for cross-references snippet.
-Because cross-references are not often used in the text, I set <code>ref</code> as a normal snippet:
-after typing <code>ref</code>, you need to press <code>Ctrl + j</code> to expand the snippet and get something like <code>\cite[|]{}</code>.
+</div><p>I use <code>cite</code> as the trigger for cross-references snippet.
+Because cross-references are not often used in the text, I set <code>cite</code> as a normal snippet:
+after typing <code>cite</code>, you need to press <code>Ctrl + j</code> to expand the snippet and get something like <code>\cite[|]{}</code>.
 Then you can input some text in the square brackets, and then press <code>Ctrl + j</code> to jump to the curly braces.
 According to the settings, you will see a dropdown with the list of all the references in the document.
 This is a powerful feature, thanks to <code>LuaSnip</code> and <code>telescope-bibtex</code>.</p>
@@ -335,22 +335,22 @@ VimTeX and LSP support auto-completion.</p>
 <h2 id="references" class="headerLink">
     <a href="#references" class="header-mark"></a>References</h2><ol>
 <li>
-<p><a href="https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/" target="_blank" rel="noopener noreffer">A Complete Guide on Writing LaTeX with Vimtex in Neovim</a></p>
+<p><a href="https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/" target="_blank" rel="noopener noreferrer">A Complete Guide on Writing LaTeX with Vimtex in Neovim</a></p>
 </li>
 <li>
-<p><a href="https://castel.dev/post/lecture-notes-1/" target="_blank" rel="noopener noreffer">How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim</a></p>
+<p><a href="https://castel.dev/post/lecture-notes-1/" target="_blank" rel="noopener noreferrer">How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim</a></p>
 </li>
 <li>
-<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreffer">config.nvim</a></p>
+<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreferrer">config.nvim</a></p>
 </li>
 <li>
-<p><a href="https://www.youtube.com/watch?v=_DnmphIwnjo&amp;t=1471s" target="_blank" rel="noopener noreffer">nvim-cmp</a></p>
+<p><a href="https://www.youtube.com/watch?v=_DnmphIwnjo&amp;t=1471s" target="_blank" rel="noopener noreferrer">nvim-cmp</a></p>
 </li>
 <li>
-<p><a href="https://www.youtube.com/watch?v=Dn800rlPIho&amp;t=427s" target="_blank" rel="noopener noreffer">Introduction to LuaSnip</a></p>
+<p><a href="https://www.youtube.com/watch?v=Dn800rlPIho&amp;t=427s" target="_blank" rel="noopener noreferrer">Introduction to LuaSnip</a></p>
 </li>
 <li>
-<p><a href="https://www.youtube.com/watch?v=KtQZRAkgLqo&amp;t=14s" target="_blank" rel="noopener noreffer">LuaSnips - Advanced Configuration</a></p>
+<p><a href="https://www.youtube.com/watch?v=KtQZRAkgLqo&amp;t=14s" target="_blank" rel="noopener noreferrer">LuaSnips - Advanced Configuration</a></p>
 </li>
 <li>
 <p>&hellip;</p>
