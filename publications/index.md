@@ -12,11 +12,11 @@
    | [PDF](http://nyjm.albany.edu/j/2022/28-17v.pdf)
 
 1. Amplified endomorphisms of Fano fourfolds,
-   manuscripta mathematica (to appear),
+   manuscripta mathematica (2022),
    Jia Jia
    and [Guolei Zhong](https://sites.google.com/view/guoleizhongshomepage/home),
    [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
-   | [PDF](https://mathjiajia.github.io/pdf/2020amplified.pdf)
+   | [Link](https://link.springer.com/article/10.1007/s00229-022-01427-6)
 
 ## Preprints
 
