@@ -16,7 +16,8 @@
    Jia Jia
    and [Guolei Zhong](https://sites.google.com/view/guoleizhongshomepage/home),
    [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
-   | [PDF](https://rdcu.be/cVlfd)
+   <!-- | [PDF](https://rdcu.be/cVlfd) -->
+   | [link](https://link.springer.com/article/10.1007/s00229-022-01427-6)
 
 ## Preprints
 
