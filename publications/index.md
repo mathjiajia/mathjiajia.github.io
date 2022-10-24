@@ -16,8 +16,18 @@
    Jia Jia
    and [Guolei Zhong](https://sites.google.com/view/guoleizhongshomepage/home),
    [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
-   <!-- | [PDF](https://rdcu.be/cVlfd) -->
    | [link](https://link.springer.com/article/10.1007/s00229-022-01427-6)
+   <!-- | [PDF](https://rdcu.be/cVlfd) -->
+
+1. Endomorphisms of quasi-projective varieties - towards Zariski dense orbit
+   and Kawaguchi-Silverman conjectures,
+   Mathematical Research Letters, accepted,
+   Jia Jia,
+   Takahiro Shibata,
+   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
+   and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
+   [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
+   | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
 
 ## Preprints
 
@@ -37,15 +47,6 @@
    and [Sheng Meng](https://sites.google.com/view/shengmeng/home),
    [arXiv:2201.06748](https://arxiv.org/abs/2201.06748)
    | [PDF](https://mathjiajia.github.io/pdf/2022equivariant.pdf)
-
-1. Endomorphisms of quasi-projective varieties - towards Zariski dense orbit
-   and Kawaguchi-Silverman conjectures,
-   Jia Jia,
-   Takahiro Shibata,
-   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
-   and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
-   [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
-   | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
 
 1. Surjective endomorphisms of projective surfaces - the existence of
    infinitely many dense orbits,
