@@ -62,7 +62,7 @@ If you are new to Neovim, I suggest you to start with [this configuration](https
 
 [Here](https://github.com/mathjiajia/config.nvim) is my current configuration.
 
-### `Lua` *(optional)*
+### `Lua` _(optional)_
 
 Since `Lua` is the first-class language in `Neovim`, some basic knowledge of `Lua` will be better.
 If you want to costuming your own `Neovim`, you may want to learn [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide).
@@ -84,7 +84,8 @@ s({ trig = 'mk', name = 'inline math', dscr = 'Insert inline Math Environment.' 
         i(1),
         t '\\)',
     }, {
-        condition = tex.in_text,
+        condition = context.in_text,
+        show_condition = context.in_text,
         callbacks = {
             [-1] = { [events.leave] = appended_space_after_insert },
         },
@@ -108,8 +109,8 @@ s({ trig = 'cite', name = 'cross refrence' }, {
         i(2),
         t '}',
     }, {
-        condition = tex.in_text,
-        show_condition = tex.in_text,
+        condition = context.in_text,
+        show_condition = context.in_text,
         callbacks = {
             [2] = {
                 [events.enter] = function()
@@ -137,7 +138,7 @@ VimTeX and LSP support auto-completion.
 
 ## TODO
 
-- [ ] finish Preparations
+- [x] finish Preparations
 - [ ] finish VimTeX
 - [ ] finish LuaSnip
 - [ ] finish cmp
