@@ -31,7 +31,13 @@
 
 ## Preprints
 
-1. Moishezon manifolds with no nef and big classes
+1. Wild automorphisms of compact complex spaces of lower dimensions,
+   Jia Jia
+   and Long Wang,
+   [arXiv:2208.12013](https://arxiv.org/abs/2211.12245)
+   | [PDF](https://mathjiajia.github.io/pdf/2022wild.pdf)
+
+1. Moishezon manifolds with no nef and big classes,
    Jia Jia
    and [Sheng Meng](https://sites.google.com/view/shengmeng/home),
    [arXiv:2208.12013](https://arxiv.org/abs/2208.12013)
