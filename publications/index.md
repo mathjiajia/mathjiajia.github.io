@@ -1,6 +1,16 @@
 # Publications
 
 
+[arXiv](https://arxiv.org/a/jia_j_1.html)
+|
+[Google Scholar](https://scholar.google.com/citations?user=Z8amnfgAAAAJ&hl=en)
+|
+[MathsciNet](https://mathscinet.ams.org/mathscinet/MRAuthorID/1490052)
+|
+[ORCID](https://orcid.org/0000-0002-2693-7278)
+|
+[ResearchGate](https://www.researchgate.net/profile/Jia-Jia-14)
+
 ## Publication
 
 1. Potential density of projective varieties having an int-amplified endomorphism,
