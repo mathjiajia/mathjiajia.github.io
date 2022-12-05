@@ -4,8 +4,14 @@
 ## Conference (co-organized with others)
 
 1. [Recent Development in Algebraic Geometry](/pdf/20220830_workshop.pdf), Jointly organised by Jia Jia, [Wing-Keung To](https://discovery.nus.edu.sg/454-to-wing-keung) and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
-
    Tuesday 30th August 2022, F2F (S17-0511, NUS) cum Zoom (Meeting ID: 892 1844 8494 Passcode: 709342)
+
+## Conference (attended)
+
+1.  From 5 December 2022 to 9 December 2022,
+    [Conference on Complex Analysis, Complex Geometry and Dynamics](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fsibony-conference%2Fhome&sa=D&sntz=1&usg=AOvVaw0gOwLbxlMqR3s2ubLGpKmZ)
+    (in memory of Nessim Sibony),
+    Laboratoire de Mathématiques d'Orsay, Université Paris-Saclay, France.
 
 ## Talks
 
