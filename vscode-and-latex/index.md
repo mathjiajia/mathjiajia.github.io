@@ -37,8 +37,8 @@ Follows the screenshot below to install the extension `LaTeX Workshop`.
 
 After doing that, you may press `Shift` + `Ctrl` + `P` (Windows)
 or `Shift` + `Cmd` + `P` (macOS) to show all commands.
-Then type `Open Settings JSON` and open the first item (as shown below).
-![open-json](https://mathjiajia.github.io/img/open-json.jpg "open-json")
+Then type `Open User Settings JSON` and open the first item (as shown below).
+![open-json](https://mathjiajia.github.io/img/open-json.png "open-json")
 
 Now copy and paste the following two snippets into your `json` file (inside the brackets `{}` of your file).
 
