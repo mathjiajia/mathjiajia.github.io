@@ -39,6 +39,14 @@
    [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
    | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
 
+1. Surjective endomorphisms of projective surfaces - the existence of
+   infinitely many dense orbits,
+   Mathematische Zeitschrift, accepted,
+   Jia Jia,
+   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
+   and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
+   [arXiv:2005.03628](https://arxiv.org/abs/2005.03628) | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf)
+
 ## Preprints
 
 1. Wild automorphisms of compact complex spaces of lower dimensions,
@@ -63,11 +71,4 @@
    and [Sheng Meng](https://sites.google.com/view/shengmeng/home),
    [arXiv:2201.06748](https://arxiv.org/abs/2201.06748)
    | [PDF](https://mathjiajia.github.io/pdf/2022equivariant.pdf)
-
-1. Surjective endomorphisms of projective surfaces - the existence of
-   infinitely many dense orbits,
-   Jia Jia,
-   [Junyi Xie](http://scholar.pku.edu.cn/xiejunyi),
-   and [De-Qi Zhang](https://blog.nus.edu.sg/matzdq/),
-   [arXiv:2005.03628](https://arxiv.org/abs/2005.03628) | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf)
 
