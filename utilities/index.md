@@ -9,8 +9,9 @@ some useful links/software
 
 ### PDF reader
 
-- [Skim](https://skim-app.sourceforge.io/): PDF reader and note-taker for OS X
 - [PDF Expert](https://pdfexpert.com/): Fast, robust and beautiful PDF editor
+- [sioyek](https://skim-app.sourceforge.io/): PDF reader and note-taker for OS X
+- [Skim](https://github.com/ahrm/sioyek/releases/): Sioyek is a PDF viewer designed for reading reserach papers and technical books.
 
 ### Reference Management
 
