@@ -195,7 +195,7 @@
 <h3 id="terminal" class="headerLink">
     <a href="#terminal" class="header-mark"></a>terminal</h3><p>Use a modern terminal, such as <code>kitty</code>, <code>alacritty</code> and <code>iTerm2</code>.</p>
 <p>On macOS, the next thing that I recommend you to do is installing <code>Homebrew</code>.
-<a href="https://brew.sh" target="_blank" rel="noopener noreferrer">Here</a> is the installation guide.</p>
+<a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Here</a> is the installation guide.</p>
 <p>If you are using an M1 Mac,
 please check <a href="https://mac.install.guide/homebrew/index.html" target="_blank" rel="noopener noreferrer">here</a> for more details,
 especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
@@ -266,11 +266,16 @@ for various file types.</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>I set <code>mk</code> as the trigger for inline math environments.
-Also, this is an auto-sinppet, which means that you can just type <code>mk</code> and it will be replaced with <code>\(|\)</code> automatically.
+Also, this is an auto-sinppet,
+which means that you can just type <code>mk</code> and it will be replaced with <code>\(|\)</code> automatically.
 Note that <code>|</code> above is used to indicate the position of the cursor.
-After the <code>mk</code> is typed, you can type the math formulas you need and then press <code>Ctrl + j</code> to escape the inline math environment.
+After the <code>mk</code> is typed,
+you can type the math formulas you need and
+then press <code>Ctrl + j</code> to escape the inline math environment.
 Now the real magic is here.
-After escaping the inline math environment, you will see something like this: <code>\(formula\)|</code>, where <code>|</code> is the cursor as before.
+After escaping the inline math environment,
+you will see something like this:
+<code>\(formula\)|</code>, where <code>|</code> is the cursor as before.
 Then <code>LusSnip</code> with insert <code>space</code> when the next character after snippet is a letter.
 Note that for <code>non-letter</code> characters, <code>LusSnip</code> will not insert <code>space</code>.</p>
 <div class="highlight"><div class="chroma">
@@ -318,11 +323,16 @@ Note that for <code>non-letter</code> characters, <code>LusSnip</code> will not 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>I use <code>cite</code> as the trigger for cross-references snippet.
-Because cross-references are not often used in the text, I set <code>cite</code> as a normal snippet:
-after typing <code>cite</code>, you need to press <code>Ctrl + j</code> to expand the snippet and get something like <code>\cite[|]{}</code>.
-Then you can input some text in the square brackets, and then press <code>Ctrl + j</code> to jump to the curly braces.
-According to the settings, you will see a dropdown with the list of all the references in the document.
-This is a powerful feature, thanks to <code>LuaSnip</code> and <code>telescope-bibtex</code>.</p>
+Because cross-references are not often used in the text,
+I set <code>cite</code> as a normal snippet:
+after typing <code>cite</code>,
+you need to press <code>Ctrl + j</code> to expand the snippet and get something like <code>\cite[|]{}</code>.
+Then you can input some text in the square brackets,
+and then press <code>Ctrl + j</code> to jump to the curly braces.
+According to the settings,
+you will see a dropdown with the list of all the references in the document.
+This is a powerful feature,
+thanks to <code>LuaSnip</code> and <code>telescope-bibtex</code>.</p>
 <h2 id="step-3-cmp" class="headerLink">
     <a href="#step-3-cmp" class="header-mark"></a>Step 3: cmp</h2><p>When writing LaTeX source files, auto-completion is crucial for fast editing
 and improve our efficiency dramatically.

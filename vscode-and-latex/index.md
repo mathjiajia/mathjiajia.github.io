@@ -6,27 +6,27 @@ There are dozens of TeX editors so far, such as Texpad and WinEdt.
 <!--more-->
 
 After encountered some wired bugs on Texpad,
-I decided to use native [TeX Live](https://www.tug.org/texlive/) / [MacTex](https://www.tug.org/mactex/).
+I decided to use native [TeX Live][texlive] / [MacTex][mactex].
 However, TexShop (on macOS) does not have a pretty highlight system.
 It seems that the Visual Studio Code is one of the beast choice.
 
 ## Step 1. Download & Install TeX Live
 
-Windows users: download `texlive.iso` [here](https://download.nus.edu.sg/mirror/ctan/systems/texlive/Images/).
+Windows users: download `texlive.iso` [here]().
 
-Mac users: download `MacTeX.pkg` [here](https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg).
+Mac users: download `MacTeX.pkg` [here][mactex_pkg].
 
 Here are some references for the installation:
 
-- [TeX Live on Windows](https://www.tug.org/texlive/windows.html)
-- [Installing MacTeX](https://www.tug.org/mactex/mactex-download.html)
+- [TeX Live on Windows][texlive_win]
+- [Installing MacTeX][mactex_install]
 
 For Windows users, after installation,
 you should add TeX Live executables to your system `PATH`.
 
 ## Step 2. Download & Install Visual Studio Code
 
-You can download it [here](https://code.visualstudio.com/).
+You can download it [here][vscode].
 The installation is easy.
 
 ## Step 3. Install & Configure LaTeX Workshop
@@ -140,5 +140,14 @@ Moreover, you may choose another recipes from the sidebar.
 There is a button in the right top corner to preview `PDF` file.
 ![tex-recipes](https://mathjiajia.github.io/img/tex-recipes.jpg "tex-recipes")
 
-### Reference: [LaTeX-Workshop Wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki)
+### Reference: [LaTeX-Workshop Wiki][latex_workshop]
+
+[latex_workshop]: https://github.com/James-Yu/LaTeX-Workshop/wiki
+[mactex]: https://www.tug.org/mactex/
+[mactex_pkg]: https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg
+[mactex_install]: https://www.tug.org/mactex/mactex-download.html
+[texlive]: https://www.tug.org/texlive/
+[texlive_iso]: https://mirror.ctan.org/systems/texlive/Images/texlive.iso
+[texlive_win]: https://www.tug.org/texlive/windows.html
+[vscode]: https://code.visualstudio.com/
 
