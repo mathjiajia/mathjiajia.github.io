@@ -39,14 +39,15 @@
    [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
    | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
 
-1. Surjective endomorphisms of projective surfaces - the existence of
-   infinitely many dense orbits,
-   Mathematische Zeitschrift, accepted,
+1. Surjective endomorphisms of projective surfaces:
+   the existence of infinitely many dense orbits,
+   Mathematische Zeitschrift **303**, Article number: 39 (2023),
    Jia Jia,
    [Junyi Xie][jyx],
    and [De-Qi Zhang][dqz],
    [arXiv:2005.03628](https://arxiv.org/abs/2005.03628)
-   | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf)
+   | [link](https://link.springer.com/article/10.1007/s00209-022-03188-0)
+   <!-- | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf) -->
 
 ## Preprints
 
