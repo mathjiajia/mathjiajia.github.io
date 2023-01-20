@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title class="pjax-title">A Quick Guide on Writing LaTeX in Neovim - Jia Jia Math</title><meta name="Description" content="Welcome to Jia Jia&#39;s Research Site"><meta property="og:title" content="A Quick Guide on Writing LaTeX in Neovim" />
+    <title>A Quick Guide on Writing LaTeX in Neovim - Jia Jia Math</title><meta name="Description" content="Welcome to Jia Jia&#39;s Research Site"><meta property="og:title" content="A Quick Guide on Writing LaTeX in Neovim" />
 <meta property="og:description" content="In last post, I shared a minimal configuration of LaTeX Workshop." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mathjiajia.github.io/neovim-latex/" /><meta property="og:image" content="https://mathjiajia.github.io/images/avatar.webp"/><meta property="article:section" content="posts" />
@@ -23,7 +23,7 @@
 
 <meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://mathjiajia.github.io/neovim-latex/" /><link rel="prev" href="https://mathjiajia.github.io/vscode-and-latex/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://mathjiajia.github.io/neovim-latex/" /><link rel="prev" href="https://mathjiajia.github.io/vscode-and-latex/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="6AUNriD4Eq-HMgEX-wsNHZzcJUeU-CHy20ar6Lrye2Q" /><script type="application/ld+json">
     {
@@ -66,16 +66,16 @@
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/"><i class="fas fa-home"></i> Home </a><a class="menu-item" href="/publications/"> Publications </a><a class="menu-item" href="/seminars/"> Seminars </a><a class="menu-item" href="/teaching/"> Teaching </a><a class="menu-item" href="/notes/"> Notes </a><a class="menu-item" href="/utilities/"> Utilities </a><a class="menu-item" href="/posts/"><i class="fab fa-wordpress-simple"></i> Posts </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
-                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Clear">
                             <i class="fas fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-desktop">
                             <i class="fas fa-spinner fa-fw fa-spin"></i>
                         </span>
-                    </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+                    </span><a href="#" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a></div>
         </div>
@@ -93,20 +93,20 @@
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
-                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Clear">
                             <i class="fas fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-mobile">
                             <i class="fas fa-spinner fa-fw fa-spin"></i>
                         </span>
                     </div>
-                    <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/" title=""><i class="fas fa-home"></i>Home</a><a class="menu-item" href="/publications/" title="">Publications</a><a class="menu-item" href="/seminars/" title="">Seminars</a><a class="menu-item" href="/teaching/" title="">Teaching</a><a class="menu-item" href="/notes/" title="">Notes</a><a class="menu-item" href="/utilities/" title="">Utilities</a><a class="menu-item" href="/posts/" title=""><i class="fab fa-wordpress-simple"></i>Posts</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/" title=""><i class="fas fa-home"></i>Home</a><a class="menu-item" href="/publications/" title="">Publications</a><a class="menu-item" href="/seminars/" title="">Seminars</a><a class="menu-item" href="/teaching/" title="">Teaching</a><a class="menu-item" href="/notes/" title="">Notes</a><a class="menu-item" href="/utilities/" title="">Utilities</a><a class="menu-item" href="/posts/" title=""><i class="fab fa-wordpress-simple"></i>Posts</a><a href="#" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -380,7 +380,7 @@ VimTeX and LSP support auto-completion.</p>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="#" onclick="return false;" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" onclick="return false;" title="Share on Instapaper" data-sharer="instapaper" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-description=""><i data-svg-src="/lib/simple-icons/icons/instapaper.min.svg"></i></a><a href="#" onclick="return false;" title="Share on Evernote" data-sharer="evernote" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="#" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="Share on Instapaper" data-sharer="instapaper" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-description=""><i data-svg-src="/lib/simple-icons/icons/instapaper.min.svg"></i></a><a href="#" title="Share on Evernote" data-sharer="evernote" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -409,9 +409,7 @@ VimTeX and LSP support auto-completion.</p>
         </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/topbar/topbar.min.js"></script><script type="text/javascript" src="/lib/pjax/pjax.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
-
-<div class="pjax-assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"twikoo":{"commentCount":true,"el":"#twikoo","envId":"https://doit-docs-comment-twikoo.vercel.app/","lang":"en"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"QIR9G366NL","algoliaIndex":"gh","algoliaSearchKey":"fa2c4e59e4d9da7afecfe99c54b233fc","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/twikoo/twikoo.all.min.js" defer></script><script type="text/javascript" src="/js/twikoo.min.js" defer></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"></div>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"twikoo":{"commentCount":true,"el":"#twikoo","envId":"https://doit-docs-comment-twikoo.vercel.app/","lang":"en"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"QIR9G366NL","algoliaIndex":"gh","algoliaSearchKey":"fa2c4e59e4d9da7afecfe99c54b233fc","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/twikoo/twikoo.all.min.js" defer></script><script type="text/javascript" src="/js/twikoo.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>
