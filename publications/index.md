@@ -51,6 +51,13 @@
 
 ## Preprints
 
+1. Smooth projective surfaces with pseudo-effective tangent bundles,
+   Jia Jia,
+   [Yongnam Lee][ynl]
+   and [Guolei Zhong][glz],
+   [arXiv:2302.10077](https://arxiv.org/abs/2302.10077)
+   | [PDF](https://mathjiajia.github.io/pdf/2023petangent.pdf)
+
 1. Wild automorphisms of compact complex spaces of lower dimensions,
    Jia Jia
    and Long Wang,
@@ -83,4 +90,5 @@
 [glz]: https://sites.google.com/view/guoleizhongshomepage/home
 [jyx]: http://scholar.pku.edu.cn/xiejunyi
 [sm]: https://sites.google.com/view/shengmeng/home
+[ynl]: https://mathsci.kaist.ac.kr/~ynlee/
 
