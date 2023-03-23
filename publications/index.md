@@ -13,21 +13,21 @@
 
 ## Publication
 
-1. Potential density of projective varieties having an int-amplified endomorphism,
-   New York J. Math. **28** (2022) 433-444,
+1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
+   Journal of Geometric Analysis, accepted
    Jia Jia,
-   Takahiro Shibata,
-   and [De-Qi Zhang][dqz],
-   [arXiv:2108.11595](https://arxiv.org/abs/2108.11595)
-   | [PDF](http://nyjm.albany.edu/j/2022/28-17v.pdf)
+   [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
+   | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
 
-1. Amplified endomorphisms of Fano fourfolds,
-   manuscripta mathematica (2022),
-   Jia Jia
-   and [Guolei Zhong][glz],
-   [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
-   | [link](https://link.springer.com/article/10.1007/s00229-022-01427-6)
-   <!-- | [PDF](https://rdcu.be/cVlfd) -->
+1. Surjective endomorphisms of projective surfaces:
+   the existence of infinitely many dense orbits,
+   Mathematische Zeitschrift **303**, Article number: 39 (2023),
+   Jia Jia,
+   [Junyi Xie][jyx],
+   and [De-Qi Zhang][dqz],
+   [arXiv:2005.03628](https://arxiv.org/abs/2005.03628)
+   | [link](https://link.springer.com/article/10.1007/s00209-022-03188-0)
+   <!-- | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf) -->
 
 1. Endomorphisms of quasi-projective varieties - towards Zariski dense orbit
    and Kawaguchi-Silverman conjectures,
@@ -39,15 +39,21 @@
    [arXiv:2104.05339](https://arxiv.org/abs/2104.05339)
    | [PDF](https://mathjiajia.github.io/pdf/2021endomorphisms.pdf)
 
-1. Surjective endomorphisms of projective surfaces:
-   the existence of infinitely many dense orbits,
-   Mathematische Zeitschrift **303**, Article number: 39 (2023),
+1. Amplified endomorphisms of Fano fourfolds,
+   manuscripta mathematica (2022),
+   Jia Jia
+   and [Guolei Zhong][glz],
+   [arXiv:2011.11239](https://arxiv.org/abs/2011.11239)
+   | [link](https://link.springer.com/article/10.1007/s00229-022-01427-6)
+   <!-- | [PDF](https://rdcu.be/cVlfd) -->
+
+1. Potential density of projective varieties having an int-amplified endomorphism,
+   New York J. Math. **28** (2022) 433-444,
    Jia Jia,
-   [Junyi Xie][jyx],
+   Takahiro Shibata,
    and [De-Qi Zhang][dqz],
-   [arXiv:2005.03628](https://arxiv.org/abs/2005.03628)
-   | [link](https://link.springer.com/article/10.1007/s00209-022-03188-0)
-   <!-- | [PDF](https://mathjiajia.github.io/pdf/2020surjective.pdf) -->
+   [arXiv:2108.11595](https://arxiv.org/abs/2108.11595)
+   | [PDF](http://nyjm.albany.edu/j/2022/28-17v.pdf)
 
 ## Preprints
 
@@ -69,11 +75,6 @@
    and [Sheng Meng][sm],
    [arXiv:2208.12013](https://arxiv.org/abs/2208.12013)
    | [PDF](https://mathjiajia.github.io/pdf/2022nefbig.pdf)
-
-1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
-   Jia Jia,
-   [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
-   | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
 
 1. Equivariant Kähler model for Fujiki's class,
    Jia Jia
