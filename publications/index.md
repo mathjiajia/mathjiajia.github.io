@@ -14,7 +14,7 @@
 ## Publication
 
 1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
-   Journal of Geometric Analysis, accepted
+   Journal of Geometric Analysis, accepted,
    Jia Jia,
    [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
    | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
