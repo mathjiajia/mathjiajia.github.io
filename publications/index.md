@@ -14,10 +14,10 @@
 ## Publication
 
 1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
-   Journal of Geometric Analysis, accepted,
+   The Journal of Geometric Analysis, **33**, Article number: 219 (2023),
    Jia Jia,
    [arXiv:2208.07336](https://arxiv.org/abs/2208.07336)
-   | [PDF](https://mathjiajia.github.io/pdf/2022autcptsurf.pdf)
+   | [link](https://link.springer.com/article/10.1007/s12220-023-01268-z)
 
 1. Surjective endomorphisms of projective surfaces:
    the existence of infinitely many dense orbits,
