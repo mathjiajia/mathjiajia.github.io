@@ -13,6 +13,12 @@
 
 ## Publication
 
+1. Wild automorphisms of compact complex spaces of lower dimensions,
+   Proceedings of the American Mathematical Society, accepted,
+   Jia Jia and Long Wang,
+   [arXiv:2211.12245](https://arxiv.org/abs/2211.12245)
+   | [PDF](https://mathjiajia.github.io/pdf/2022wild.pdf)
+
 1. Automorphisms groups of compact complex surfaces: T-Jordan property, Tits alternative and solvability,
    The Journal of Geometric Analysis, **33**, Article number: 219 (2023),
    Jia Jia,
@@ -63,12 +69,6 @@
    and [Guolei Zhong][glz],
    [arXiv:2302.10077](https://arxiv.org/abs/2302.10077)
    | [PDF](https://mathjiajia.github.io/pdf/2023petangent.pdf)
-
-1. Wild automorphisms of compact complex spaces of lower dimensions,
-   Jia Jia
-   and Long Wang,
-   [arXiv:2211.12245](https://arxiv.org/abs/2211.12245)
-   | [PDF](https://mathjiajia.github.io/pdf/2022wild.pdf)
 
 1. Moishezon manifolds with no nef and big classes,
    Jia Jia
