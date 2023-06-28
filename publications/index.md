@@ -7,6 +7,8 @@
 |
 [MathSciNet][math_sci]
 |
+[Math Genealogy][math_genealogy]
+|
 [ORCID][orcid]
 |
 [ResearchGate][research_gate]
@@ -85,6 +87,7 @@
 [arxiv]: https://arxiv.org/a/jia_j_1.html
 [google_scholar]: https://scholar.google.com/citations?user=Z8amnfgAAAAJ&hl=en
 [math_sci]: https://mathscinet.ams.org/mathscinet/MRAuthorID/1490052
+[math_genealogy]: https://www.mathgenealogy.org/id.php?id=296758
 [orcid]: https://orcid.org/0000-0002-2693-7278
 [research_gate]: https://www.researchgate.net/profile/Jia-Jia-14
 [dqz]: https://blog.nus.edu.sg/matzdq/
