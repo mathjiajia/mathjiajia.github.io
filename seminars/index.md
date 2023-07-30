@@ -11,10 +11,22 @@
 
 ## Conference (attended)
 
-1.  From 5 December 2022 to 9 December 2022,
-    [Conference on Complex Analysis, Complex Geometry and Dynamics](https://sites.google.com/view/sibony-conference/home)
-    (in memory of Nessim Sibony),
-    Laboratoire de Mathématiques d'Orsay, Université Paris-Saclay, France.
+1. 5-9 December 2022,
+   [Conference on Complex Analysis, Complex Geometry and Dynamics](https://sites.google.com/view/sibony-conference/home)
+   (in memory of Nessim Sibony),
+   Laboratoire de Mathématiques d'Orsay, Université Paris-Saclay, France.
+
+1. 12-14 July 2023,
+   [ICBS Satellite Conference on Algebraic and Arithmetic Geometry](https://www.icbs.cn/en/web/index/18009_1525927__)
+   Tsinghua University and BIMSA, Beijing, China
+
+1. 17-28 July 2023,
+   [International Congress of Basic Science](https://www.icbs.cn/en/web/index/18009_),
+   Beijing, China
+
+1. 21 August - 1 September 2023,
+   [Recent Developments in Algebraic Geometry, Arithmetic and Dynamics Part 2](https://ims.nus.edu.sg/events/recent-developments-in-algebraic-geometry-arithmetic-and-dynamics2/),
+   The Institute for Mathematical Sciences, National University of Singapore, Singapore
 
 ## Talks
 
