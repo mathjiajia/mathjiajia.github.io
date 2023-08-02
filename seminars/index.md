@@ -24,7 +24,7 @@
    [International Congress of Basic Science](https://www.icbs.cn/en/web/index/18009_),
    Beijing, China
 
-1. 21 August - 1 September 2023,
+1. 14-25 August 2023,
    [Recent Developments in Algebraic Geometry, Arithmetic and Dynamics Part 2](https://ims.nus.edu.sg/events/recent-developments-in-algebraic-geometry-arithmetic-and-dynamics2/),
    The Institute for Mathematical Sciences, National University of Singapore, Singapore
 
