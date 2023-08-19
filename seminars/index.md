@@ -52,5 +52,10 @@
    [Workshop: Recent Development in Algebraic Geometry](https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2022/08/20220830-Poster-Workshop.pdf),
    NUS, 30 August 2022
 
+1. Wild Automorphisms of Compact Complex Spaces, [Slides](/pdf/2023_Aug_NUS.pdf)
+
+   [Recent Developments in Algebraic Geometry, Arithmetic and Dynamics Part 2 Seminars and Informal Discussions](https://ims.nus.edu.sg/wp-content/uploads/2023/08/1508-Informal-Week.pdf),
+   NUS, 17 August 2023
+
 [tg_nus]: https://www.math.nus.edu.sg/category/events/colloquia-seminars/topology-geometry
 
