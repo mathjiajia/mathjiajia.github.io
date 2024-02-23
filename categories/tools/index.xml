@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>tools - Category - Jia Jia Math</title>
+        <title>Tools - Category - Jia Jia Math</title>
         <link>https://mathjiajia.github.io/categories/tools/</link>
-        <description>tools - Category - Jia Jia Math</description>
+        <description>Tools - Category - Jia Jia Math</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
             <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/categories/tools/" rel="self" type="application/rss+xml" /><item>
     <title>A Quick Guide on Writing LaTeX in Neovim</title>
