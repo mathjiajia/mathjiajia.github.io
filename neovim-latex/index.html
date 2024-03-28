@@ -1,15 +1,12 @@
 
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noodp" />
-    <title>A Quick Guide on Writing LaTeX in Neovim - Jia Jia Math</title><meta
-  name="Description"
-  content="Welcome to Jia Jia&#39;s Research Site"
-/><meta property="og:title" content="A Quick Guide on Writing LaTeX in Neovim" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" /><title>A Quick Guide on Writing LaTeX in Neovim - Jia Jia Math</title><meta name="Description" content="Welcome to Jia Jia&#39;s Research Site"><meta property="og:title" content="A Quick Guide on Writing LaTeX in Neovim" />
 <meta property="og:description" content="In last post, I shared a minimal configuration of LaTeX Workshop." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mathjiajia.github.io/neovim-latex/" /><meta property="og:image" content="https://mathjiajia.github.io/images/avatar.webp" /><meta property="article:section" content="posts" />
@@ -20,68 +17,23 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://mathjiajia.github.io/images/avatar.webp" /><meta name="twitter:title" content="A Quick Guide on Writing LaTeX in Neovim"/>
 <meta name="twitter:description" content="In last post, I shared a minimal configuration of LaTeX Workshop."/>
-<meta
-  name="application-name"
-  content="Math Jia Jia"
-/>
-<meta
-  name="apple-mobile-web-app-title"
-  content="Math Jia Jia"
-/>
+<meta name="application-name" content="Math Jia Jia">
+<meta name="apple-mobile-web-app-title" content="Math Jia Jia">
 
-<meta name="theme-color" content="#f8f8f8" /><meta name="msapplication-TileColor" content="#da532c" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" /><link rel="canonical" href="https://mathjiajia.github.io/neovim-latex/" /><link rel="prev" href="https://mathjiajia.github.io/vscode-and-latex/" />
-<link
-      rel="stylesheet"
-      href="/css/main.css"
-      
-    /><link
-      rel="stylesheet"
-      href="/lib/normalize/normalize.min.css"
-      
-    /><link
-      rel="stylesheet"
-      href="/css/color.css"
-      
-    /><link
-      rel="stylesheet"
-      href="/css/style.min.css"
-      
-    /><link
-      rel="preload"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-      href="/lib/fontawesome-free/all.min.css"
-      
-    />
-    <noscript
-      ><link
-        rel="stylesheet"
-        href="/lib/fontawesome-free/all.min.css"
-        
-    /></noscript><link
-      rel="preload"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-      href="/lib/animate/animate.min.css"
-      
-    />
-    <noscript
-      ><link
-        rel="stylesheet"
-        href="/lib/animate/animate.min.css"
-        
-    /></noscript><meta name="google-site-verification" content="6AUNriD4Eq-HMgEX-wsNHZzcJUeU-CHy20ar6Lrye2Q" /><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<link rel="canonical" href="https://mathjiajia.github.io/neovim-latex/" /><link rel="prev" href="https://mathjiajia.github.io/vscode-and-latex/" />
+<link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="6AUNriD4Eq-HMgEX-wsNHZzcJUeU-CHy20ar6Lrye2Q" /><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
         "headline": "A Quick Guide on Writing LaTeX in Neovim",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://mathjiajia.github.io/neovim-latex/"
-        },"image": ["https://mathjiajia.github.io/images/Apple-Devices-Preview.png"],"genre": "posts","keywords": "LaTeX, Neovim, Snippets, Lua","wordcount":  704 ,
+        },"image": ["https://mathjiajia.github.io/images/Apple-Devices-Preview.png"],"genre": "posts","keywords":["LaTeX","Neovim","Snippets","Lua"],"wordcount":  699 ,
         "url": "https://mathjiajia.github.io/neovim-latex/","datePublished": "2021-11-30T20:00:00+08:00","dateModified": "2022-05-10T15:20:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -91,16 +43,23 @@
                     "height":  560 
                 }},"author": {
                 "@type": "Person",
-                "name": "Jia Jia"
+                "name": "Jia Jia",
+                "url": "https://mathjiajia.github.io/"
             },"description": ""
-    }
-    </script></head>
+    }</script></head>
 
-  <body
-    header-desktop="fixed"
-    header-mobile="auto"
-  ><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {
+          document.body.setAttribute('theme', theme); 
+          document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+          if (theme === 'light') {
+            document.documentElement.classList.remove('tw-dark')
+          } else {
+            document.documentElement.classList.add('tw-dark')
+          }
+          window.theme = theme;   
+          window.isDark = window.theme !== 'light' 
+        }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
@@ -109,178 +68,69 @@
         window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
-    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-  <div class="header-wrapper">
-    <div class="header-title">
-      <a href="/" title="Jia Jia Math"><span class="header-title-pre"><i class='fas fa-seedling'></i></span>Jia Jia&#39;s Homepage</a>
-    </div>
-    <div class="menu">
-      <div class="menu-inner"><a
-            class="menu-item"
-            href="/"
-            
-          ><i class="fas fa-home"></i> Home
-            </a><a
-            class="menu-item"
-            href="/publications/"
-            
-          > Publications
-            </a><a
-            class="menu-item"
-            href="/conferences/"
-            
-          > Conferences
-            </a><a
-            class="menu-item"
-            href="/teaching/"
-            
-          > Teaching
-            </a><a
-            class="menu-item"
-            href="/utilities/"
-            
-          > Utilities
-            </a><a
-            class="menu-item"
-            href="/posts/"
-            
-          ><i class="fab fa-wordpress-simple"></i> Posts
-            </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-            <input
-              type="text"
-              placeholder="Search titles or contents..."
-              id="search-input-desktop"
-            />
-            <a
-              href="javascript:void(0);"
-              class="search-button search-toggle"
-              id="search-toggle-desktop"
-              title="Search"
-            >
-              <i class="fas fa-search fa-fw"></i>
-            </a>
-            <a
-              href="javascript:void(0);"
-              class="search-button search-clear"
-              id="search-clear-desktop"
-              title="Clear"
-            >
-              <i class="fas fa-times-circle fa-fw"></i>
-            </a>
-            <span
-              class="search-button search-loading"
-              id="search-loading-desktop"
-            >
-              <i class="fas fa-spinner fa-fw fa-spin"></i>
-            </span>
-          </span><a
-            href="javascript:void(0);"
-            class="menu-item theme-switch"
-            title="Switch Theme"
-          >
-            <i class="fas fa-adjust fa-fw"></i>
-          </a></div>
-    </div>
-  </div>
-</header><header class="mobile" id="header-mobile">
-  <div class="header-container">
+    <div id="mask"></div><div class="wrapper"><header class="desktop print:!tw-hidden" id="header-desktop">
     <div class="header-wrapper">
-      <div class="header-title">
-        <a href="/" title="Jia Jia Math"><span class="header-title-pre"><i class='fas fa-seedling'></i></span>Jia Jia&#39;s Homepage</a>
-      </div>
-      <div class="menu-toggle" id="menu-toggle-mobile">
-        <span></span><span></span><span></span>
-      </div>
+        <div class="header-title">
+            <a href="/" title="Jia Jia Math"><span class="header-title-pre"><i class='fas fa-seedling'></i></span>Jia Jia&#39;s Homepage</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/"><i class="fas fa-home"></i> Home </a><a class="menu-item" href="/publications/"> Publications </a><a class="menu-item" href="/conferences/"> Conferences </a><a class="menu-item" href="/teaching/"> Teaching </a><a class="menu-item" href="/utilities/"> Utilities </a><a class="menu-item" href="/posts/"><i class="fab fa-wordpress-simple"></i> Posts </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
     </div>
-    <div class="menu" id="menu-mobile"><div class="search-wrapper">
-          <div class="search mobile" id="search-mobile">
-            <input
-              type="text"
-              placeholder="Search titles or contents..."
-              id="search-input-mobile"
-            />
-            <a
-              href="javascript:void(0);"
-              class="search-button search-toggle"
-              id="search-toggle-mobile"
-              title="Search"
-            >
-              <i class="fas fa-search fa-fw"></i>
-            </a>
-            <a
-              href="javascript:void(0);"
-              class="search-button search-clear"
-              id="search-clear-mobile"
-              title="Clear"
-            >
-              <i class="fas fa-times-circle fa-fw"></i>
-            </a>
-            <span
-              class="search-button search-loading"
-              id="search-loading-mobile"
-            >
-              <i class="fas fa-spinner fa-fw fa-spin"></i>
-            </span>
-          </div>
-          <a
-            href="javascript:void(0);"
-            class="search-cancel"
-            id="search-cancel-mobile"
-          >
-            Cancel
-          </a>
-        </div><a
-          class="menu-item"
-          href="/"
-          title=""
-          
-        ><i class="fas fa-home"></i>Home</a><a
-          class="menu-item"
-          href="/publications/"
-          title=""
-          
-        >Publications</a><a
-          class="menu-item"
-          href="/conferences/"
-          title=""
-          
-        >Conferences</a><a
-          class="menu-item"
-          href="/teaching/"
-          title=""
-          
-        >Teaching</a><a
-          class="menu-item"
-          href="/utilities/"
-          title=""
-          
-        >Utilities</a><a
-          class="menu-item"
-          href="/posts/"
-          title=""
-          
-        ><i class="fab fa-wordpress-simple"></i>Posts</a><a
-          href="javascript:void(0);"
-          class="menu-item theme-switch"
-          title="Switch Theme"
-        >
-          <i class="fas fa-adjust fa-fw"></i>
-        </a></div>
-  </div>
+</header><header class="mobile print:!tw-hidden" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jia Jia Math"><span class="header-title-pre"><i class='fas fa-seedling'></i></span>Jia Jia&#39;s Homepage</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/" title=""><i class="fas fa-home"></i>Home</a><a class="menu-item" href="/publications/" title="">Publications</a><a class="menu-item" href="/conferences/" title="">Conferences</a><a class="menu-item" href="/teaching/" title="">Teaching</a><a class="menu-item" href="/utilities/" title="">Utilities</a><a class="menu-item" href="/posts/" title=""><i class="fab fa-wordpress-simple"></i>Posts</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
 </header>
 <div class="search-dropdown desktop">
-  <div id="search-dropdown-desktop"></div>
+    <div id="search-dropdown-desktop"></div>
 </div>
 <div class="search-dropdown mobile">
-  <div id="search-dropdown-mobile"></div>
+    <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-        <div class="container"><div class="toc" id="toc-auto">
-      <h2 class="toc-title">Contents</h2>
-      <div
-        class="toc-content"
-        id="toc-content-auto"
-      ><nav id="TableOfContents">
+            <div class="container"><div class="toc print:!tw-hidden" id="toc-auto">
+        <h2 class="toc-title">Contents</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
     <li><a href="#step-0-preparations">Step 0: Preparations</a>
       <ul>
@@ -299,77 +149,32 @@
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
-    </div><script>
-        document
-          .getElementsByTagName("main")[0]
-          .setAttribute("autoTOC", "true");
-      </script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">
-      A Quick Guide on Writing LaTeX in Neovim
-    </h1><div class="post-meta">
-      <div class="post-meta-line">
-        <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a
-  href="https://mathjiajia.github.io/"
-  
-    title="Author"
-  
-     target="_blank"
-  
-  rel="noopener noreferrerauthor"
-  class="author"
->Jia Jia</a>
-
-        </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/tools/"><i class="far fa-folder fa-fw"></i>Tools</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
-      <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time
-            datetime="2021-11-30"
-            >2021-11-30</time
-          >&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-05-10"
-              >2022-05-10</time
-            >&nbsp;<i class="fas fa-pencil-alt fa-fw"></i
-          >&nbsp;704 words&nbsp;<i class="far fa-clock fa-fw"></i
-          >&nbsp;4 minutes&nbsp;<span
-            id="/neovim-latex/"
-            class="leancloud_visitors"
-            data-flag-title="A Quick Guide on Writing LaTeX in Neovim"
-          >
-            <i class="far fa-eye fa-fw"></i>&nbsp;<span
-              class="leancloud-visitors-count"
-              id="twikoo_visitors"
-            ></span
-            >&nbsp;views </span
-          >&nbsp;<span
-            id="/neovim-latex/"
-            class="comment_count"
-            data-flag-title="A Quick Guide on Writing LaTeX in Neovim"
-          >
-            <i class="far fa-comments fa-fw"></i>&nbsp;<span
-              class="twikoo-comment-count"
-              id="twikoo-comment-count"
-            ></span
-            >&nbsp;comments </span
-          >&nbsp;</div>
-    </div><div class="details series-nav open">
-              <div class="details-summary series-title">
-                <span>Series - </span>
-                <span><i class="details-icon fas fa-angle-right"></i></span>
-              </div>
-              <div class="details-content series-content">
-                <nav>
-                  <ul>
-                        <li>
-                          <a href="/vscode-and-latex/">A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a>
-                        </li><li><span class="active">A Quick Guide on Writing LaTeX in Neovim</span></li></ul>
-                </nav>
-              </div>
-            </div><div
-        class="details toc"
-        id="toc-static"
-        kept=""
-      >
-        <div class="details-summary toc-title">
-          <span>Contents</span>
-          <span><i class="details-icon fas fa-angle-right"></i></span>
-        </div>
-        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title animate__animated animate__flipInX">A Quick Guide on Writing LaTeX in Neovim</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><img src="https://mathjiajia.github.io/images/avatar.webp" alt="Jia Jia avatar" class="tw-inline-block tw-max-h-4 tw-rounded-full tw-translate-y-[-2px] tw-mr-1"><a href="https://mathjiajia.github.io/" title="Author" target="_blank" rel="noopener noreferrer author" class="author">Jia Jia</a>
+                </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/tools/"><i class="far fa-folder fa-fw"></i>Tools</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/editors/"><i class="far fa-list-alt fa-fw"></i>Editors</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-30">2021-11-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-05-10">2022-05-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;699 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;<span id="/neovim-latex/" class="leancloud_visitors" data-flag-title="A Quick Guide on Writing LaTeX in Neovim">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count" id="twikoo_visitors"></span>&nbsp;views
+                    </span>&nbsp;<span id="/neovim-latex/" class="comment_count" data-flag-title="A Quick Guide on Writing LaTeX in Neovim">
+                        <i class="far fa-comments fa-fw"></i>&nbsp;<span class="twikoo-comment-count" id="twikoo-comment-count"></span>&nbsp;comments
+                    </span>&nbsp;</div>
+        </div><div class="details series-nav open">
+                                <div class="details-summary series-title">
+                                    <span>Series - </span>
+                                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                                </div>
+                                <div class="details-content series-content">
+                                    <nav>
+                                        <ul>
+                                                    <li><a href="/vscode-and-latex/">A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a></li><li><span class="active">A Quick Guide on Writing LaTeX in Neovim</span></li></ul>
+                                    </nav>
+                                </div>
+                            </div><div class="details toc print:!tw-block" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#step-0-preparations">Step 0: Preparations</a>
       <ul>
@@ -388,63 +193,23 @@
     <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>
+            </div><div class="content" id="content"><p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>
 <p>Now, I would like to share something about setting <code>Neovim</code> for
 <code>VimTeX</code>, <code>texlab</code>, <code>LuaSnip</code> and auto-completion.</p>
-<p>This may not be suitable for everyone, especially for those who are not familiar with <a
-  href="https://en.wikipedia.org/wiki/Text-based_user_interface"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->TUI</a>
-.</p>
+<p>This may not be suitable for everyone, especially for those who are not familiar with <a href="https://en.wikipedia.org/wiki/Text-based_user_interface" target="_blank" rel="noopener noreferrer">TUI</a>.</p>
 <h2 id="step-0-preparations" class="headerLink">
     <a href="#step-0-preparations" class="header-mark"></a>Step 0: Preparations</h2><h3 id="operating-system" class="headerLink">
     <a href="#operating-system" class="header-mark"></a>operating system</h3><p>I am using <code>Neovim</code> on <code>macOS</code>, and these configurations should also work well on <code>Linux</code>.</p>
-<p>For <code>Windows</code> user, I recommend to install <a
-  href="https://doi.org/10.1070/IM8983"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->WSL</a>
-.</p>
+<p>For <code>Windows</code> user, I recommend to install <a href="https://doi.org/10.1070/IM8983" target="_blank" rel="noopener noreferrer">WSL</a>.</p>
 <h3 id="terminal" class="headerLink">
     <a href="#terminal" class="header-mark"></a>terminal</h3><p>Use a modern terminal, such as <code>kitty</code>, <code>alacritty</code> and <code>iTerm2</code>.</p>
 <p>On macOS, the next thing that I recommend you to do is installing <code>Homebrew</code>.
-<a
-  href="https://brew.sh/"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->Here</a>
- is the installation guide.</p>
+<a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Here</a> is the installation guide.</p>
 <p>If you are using an M1 Mac,
-please check <a
-  href="https://mac.install.guide/homebrew/index.html"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->here</a>
- for more details,
+please check <a href="https://mac.install.guide/homebrew/index.html" target="_blank" rel="noopener noreferrer">here</a> for more details,
 especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 <h3 id="tex" class="headerLink">
-    <a href="#tex" class="header-mark"></a><code>TeX</code></h3><p>As in the <a
-  href="https://mathjiajia.github.io/vscode-and-latex/"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->last post</a>
-, we need to install a <code>TeX</code> distribution.</p>
+    <a href="#tex" class="header-mark"></a><code>TeX</code></h3><p>As in the <a href="https://mathjiajia.github.io/vscode-and-latex/" target="_blank" rel="noopener noreferrer">last post</a>, we need to install a <code>TeX</code> distribution.</p>
 <p>For <code>macOS</code> users, you may download <code>mactex-no-gui</code> via <code>Homebrew</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -455,15 +220,7 @@ especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="install-neovim" class="headerLink">
-    <a href="#install-neovim" class="header-mark"></a>Install <code>Neovim</code></h3><p><a
-  href="https://github.com/neovim/neovim/wiki/Installing-Neovim"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->Here</a>
- is the official instructions for installing <code>Neovim</code> on different platforms.</p>
+    <a href="#install-neovim" class="header-mark"></a>Install <code>Neovim</code></h3><p><a href="https://github.com/neovim/neovim/wiki/Installing-Neovim" target="_blank" rel="noopener noreferrer">Here</a> is the official instructions for installing <code>Neovim</code> on different platforms.</p>
 <p>For <code>macOS</code> users, you can install <code>Neovim</code> with <code>Homebrew</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -477,44 +234,12 @@ especially export <code>/opt/homebrew/</code> to your <code>$PATH</code>.</p>
 Please ensure that you have the correct version (&gt;= 0.7).</p>
 <h3 id="vim--neovim-usage" class="headerLink">
     <a href="#vim--neovim-usage" class="header-mark"></a><code>Vim</code> / <code>Neovim</code> usage</h3><p>Since <code>Neovim</code> is a fork of <code>Vim</code>, the basic usage is the same.</p>
-<p>Follow this <a
-  href="https://github.com/iggredible/Learn-Vim"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->repo</a>
- to learn how to use <code>Vim</code> and <code>Neovim</code>.</p>
-<p>If you are new to Neovim, I suggest you to start with <a
-  href="https://github.com/nvim-lua/kickstart.nvim.git"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->this configuration</a>
-.</p>
-<p><a
-  href="https://github.com/mathjiajia/config.nvim"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->Here</a>
- is my current configuration.</p>
+<p>Follow this <a href="https://github.com/iggredible/Learn-Vim" target="_blank" rel="noopener noreferrer">repo</a> to learn how to use <code>Vim</code> and <code>Neovim</code>.</p>
+<p>If you are new to Neovim, I suggest you to start with <a href="https://github.com/nvim-lua/kickstart.nvim.git" target="_blank" rel="noopener noreferrer">this configuration</a>.</p>
+<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreferrer">Here</a> is my current configuration.</p>
 <h3 id="lua-_optional_" class="headerLink">
     <a href="#lua-_optional_" class="header-mark"></a><code>Lua</code> <em>(optional)</em></h3><p>Since <code>Lua</code> is the first-class language in <code>Neovim</code>, some basic knowledge of <code>Lua</code> will be better.
-If you want to costuming your own <code>Neovim</code>, you may want to learn <a
-  href="https://github.com/nanotee/nvim-lua-guide"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->nvim-lua-guide</a>
-.</p>
+If you want to costuming your own <code>Neovim</code>, you may want to learn <a href="https://github.com/nanotee/nvim-lua-guide" target="_blank" rel="noopener noreferrer">nvim-lua-guide</a>.</p>
 <h2 id="step-1-vimtex" class="headerLink">
     <a href="#step-1-vimtex" class="header-mark"></a>Step 1: VimTeX</h2><p>VimTeX is a powerful tool to</p>
 <h2 id="step-2-luasnip" class="headerLink">
@@ -631,275 +356,146 @@ VimTeX and LSP support auto-completion.</p>
 <h2 id="references" class="headerLink">
     <a href="#references" class="header-mark"></a>References</h2><ol>
 <li>
-<p><a
-  href="https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->A Complete Guide on Writing LaTeX with Vimtex in Neovim</a>
-</p>
+<p><a href="https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/" target="_blank" rel="noopener noreferrer">A Complete Guide on Writing LaTeX with Vimtex in Neovim</a></p>
 </li>
 <li>
-<p><a
-  href="https://castel.dev/post/lecture-notes-1/"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim</a>
-</p>
+<p><a href="https://castel.dev/post/lecture-notes-1/" target="_blank" rel="noopener noreferrer">How I&rsquo;m able to take notes in mathematics lectures using LaTeX and Vim</a></p>
 </li>
 <li>
-<p><a
-  href="https://github.com/mathjiajia/config.nvim"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->config.nvim</a>
-</p>
+<p><a href="https://github.com/mathjiajia/config.nvim" target="_blank" rel="noopener noreferrer">config.nvim</a></p>
 </li>
 <li>
-<p><a
-  href="https://www.youtube.com/watch?v=_DnmphIwnjo&amp;t=1471s"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->nvim-cmp</a>
-</p>
+<p><a href="https://www.youtube.com/watch?v=_DnmphIwnjo&amp;t=1471s" target="_blank" rel="noopener noreferrer">nvim-cmp</a></p>
 </li>
 <li>
-<p><a
-  href="https://www.youtube.com/watch?v=Dn800rlPIho&amp;t=427s"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->Introduction to LuaSnip</a>
-</p>
+<p><a href="https://www.youtube.com/watch?v=Dn800rlPIho&amp;t=427s" target="_blank" rel="noopener noreferrer">Introduction to LuaSnip</a></p>
 </li>
 <li>
-<p><a
-  href="https://www.youtube.com/watch?v=KtQZRAkgLqo&amp;t=14s"
-  
-     target="_blank"
-  
-  rel="noopener noreferrer"
-  
->LuaSnips - Advanced Configuration</a>
-</p>
+<p><a href="https://www.youtube.com/watch?v=KtQZRAkgLqo&amp;t=14s" target="_blank" rel="noopener noreferrer">LuaSnips - Advanced Configuration</a></p>
 </li>
 <li>
 <p>&hellip;</p>
 </li>
 </ol></div>
 
-    
+        
 
 
-  <h2>Related Content</h2>
-  <div class="related-container">
+<h2>Related Content</h2>
+<div class="related-container">
     <div class="related-item-container">
-        <div class="related-image">
-            <a href="/vscode-and-latex/"><img
-    
-    loading="lazy"
-    src="https://mathjiajia.github.io/img/latex-vscode-title.png"
-    srcset="https://mathjiajia.github.io/img/latex-vscode-title.png,
-        https://mathjiajia.github.io/img/latex-vscode-title.png 1.5x,
-        https://mathjiajia.github.io/img/latex-vscode-title.png 2x"
-    title="https://mathjiajia.github.io/img/latex-vscode-title.png"
-    height="200"
-    width="400"
-  /></a>
-          </div><h2 class="related-title">
-          <a href="/vscode-and-latex/">A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a>
-        </h2>
-      </div>
+            <div class="related-image">
+                <a href="/vscode-and-latex/"><img
+        
+        loading="lazy"
+        src="https://mathjiajia.github.io/img/latex-vscode-title.png"
+        srcset="https://mathjiajia.github.io/img/latex-vscode-title.png, https://mathjiajia.github.io/img/latex-vscode-title.png 1.5x, https://mathjiajia.github.io/img/latex-vscode-title.png 2x"
+        title="https://mathjiajia.github.io/img/latex-vscode-title.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/vscode-and-latex/">A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a>
+            </h2>
+        </div>
     
 
-  </div>
-
-<div class="sponsor">
-    <div class="sponsor-avatar"><img
-    
-    loading="lazy"
-    src="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp"
-    srcset="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp,
-        https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp 1.5x,
-        https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp 2x"
-    title="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp"
-    
-    
-  /></div><p class="sponsor-bio"><em>If you find this post helpful, please consider sponsoring.</em></p><a
-        href="https://github.com/sponsors/HEIGE-PCloud"
-        title="Sponsor"
-        target="_blank"
-        class="sponsor-button"
-        rel="noopener noreferrer"
-      >
-        <i class="far fa-heart fa-fw icon" style="color: #ec6cb9;"></i>
-        <span>Sponsor</span>
-      </a></div><div class="post-footer" id="post-footer">
-  <div class="post-info">
-    <div class="post-info-line">
-      <div class="post-info-mod">
-        <span>Updated on 2022-05-10</span>
-      </div>
-      <div class="post-info-license"></div>
-    </div>
-    <div class="post-info-line">
-      <div class="post-info-md"></div>
-      <div class="post-info-share"><button
-      title="Share on WhatsApp"
-      data-sharer="whatsapp"
-      data-url="https://mathjiajia.github.io/neovim-latex/"
-      data-title="A Quick Guide on Writing LaTeX in Neovim"
-      data-web
-    ><span class="fab fa-whatsapp fa-fw"></span></button><button
-      title="Share on Instapaper"
-      data-sharer="instapaper"
-      data-url="https://mathjiajia.github.io/neovim-latex/"
-      data-title="A Quick Guide on Writing LaTeX in Neovim"
-      data-description=""
-    ><span data-svg-src="/lib/simple-icons/icons/instapaper.min.svg"></span></button><button
-      title="Share on Evernote"
-      data-sharer="evernote"
-      data-url="https://mathjiajia.github.io/neovim-latex/"
-      data-title="A Quick Guide on Writing LaTeX in Neovim"
-    ><span class="fab fa-evernote fa-fw"></span></button><script>
-      function shareOnMastodon(title, link) {
-        const SHARE_MASTODON_DOMAIN = "share_mastodon_domain";
-        const savedDomain =
-          localStorage.getItem(SHARE_MASTODON_DOMAIN) ?? "mastodon.social";
-        const domain = prompt("Enter your Mastodon domain", savedDomain);
-        if (domain === null) {
-          return;
-        }
-        localStorage.setItem(SHARE_MASTODON_DOMAIN, domain);
-        const text = title + "\n\n" + link;
-        const url = new URL("https://" + domain);
-        url.pathname = "share";
-        url.searchParams.append("text", text);
-        window.open(
-          url,
-          "_blank",
-          "width=500,height=500,left=500,toolbar=0,status=0",
-        );
-      }
-    </script>
-    <button
-      title="Share on Mastodon"
-      onclick="javascript:shareOnMastodon(&#34;A Quick Guide on Writing LaTeX in Neovim&#34;, &#34;https://mathjiajia.github.io/neovim-latex/&#34;)"
-    ><span class="fab fa-mastodon fa-fw"></span></button></div>
-    </div>
-  </div>
-
-  <div class="post-info-more">
-    <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/latex/">LaTeX</a>,&nbsp;<a href="/tags/neovim/">Neovim</a>,&nbsp;<a href="/tags/snippets/">Snippets</a>,&nbsp;<a href="/tags/lua/">Lua</a></section>
-    <section>
-      <span
-        ><a href="javascript:void(0);" onclick="window.history.back();"
-          >Back</a
-        ></span
-      >&nbsp;|&nbsp;<span
-        ><a href="/">Home</a></span
-      >
-    </section>
-  </div>
-
-  <div class="post-nav"><a
-        href="/vscode-and-latex/"
-        class="prev"
-        rel="prev"
-        title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code"
-        ><i class="fas fa-angle-left fa-fw"></i>A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a
-      ></div>
 </div>
-<div id="comments"><div id="twikoo"></div><noscript>
+
+<div class="sponsor print:tw-hidden">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp"
+        srcset="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp, https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp 1.5x, https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp 2x"
+        title="https://www.gravatar.com/avatar/41ec955d473433aa51e23483067e55ca?s=240&amp;d=mp" ></div><p class="sponsor-bio"><em>If you find this post helpful, please consider sponsoring.</em></p><a href="https://github.com/sponsors/HEIGE-PCloud" title="Sponsor" target="_blank" class="sponsor-button" rel="noopener noreferrer">
+                <i class="far fa-heart fa-fw icon" style="color: #ec6cb9;"></i>
+                <span>Sponsor</span>
+            </a></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-05-10</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line print:!tw-hidden">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"><button title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-web><span class="fab fa-whatsapp fa-fw"></span></button><button title="Share on Instapaper" data-sharer="instapaper" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim" data-description=""><span data-svg-src="/lib/simple-icons/icons/instapaper.min.svg"></span></button><button title="Share on Evernote" data-sharer="evernote" data-url="https://mathjiajia.github.io/neovim-latex/" data-title="A Quick Guide on Writing LaTeX in Neovim"><span class="fab fa-evernote fa-fw"></span></button><script>
+        function shareOnMastodon(title, link) {
+            const SHARE_MASTODON_DOMAIN = "share_mastodon_domain"
+            const savedDomain = localStorage.getItem(SHARE_MASTODON_DOMAIN) ?? "mastodon.social";
+            const domain = prompt("Enter your Mastodon domain", savedDomain);
+            if (domain === null) {
+                return;
+            }
+            localStorage.setItem(SHARE_MASTODON_DOMAIN, domain)
+            const text = title + "\n\n" + link;
+            const url = new URL("https://" + domain)
+            url.pathname = "share"
+            url.searchParams.append('text', text)
+            window.open(url, '_blank', "width=500,height=500,left=500,toolbar=0,status=0");
+        }
+    </script>
+    <button title="Share on Mastodon"onclick="javascript:shareOnMastodon(&#34;A Quick Guide on Writing LaTeX in Neovim&#34;, &#34;https://mathjiajia.github.io/neovim-latex/&#34;)"><span class="fab fa-mastodon fa-fw"></span></button></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/latex/">LaTeX</a>,&nbsp;<a href="/tags/neovim/">Neovim</a>,&nbsp;<a href="/tags/snippets/">Snippets</a>,&nbsp;<a href="/tags/lua/">Lua</a></section>
+        <section class="print:!tw-hidden">
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav print:tw-hidden"><a href="/vscode-and-latex/" class="prev" rel="prev" title="A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code"><i class="fas fa-angle-left fa-fw"></i>A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</a></div>
+</div>
+<div id="comments" class="print:!tw-hidden"><div id="twikoo"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://twikoo.js.org/">Twikoo</a>.
             </noscript></div></article></div>
-      </main><footer class="footer">
-    <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 -2024</span><span class="author" itemprop="copyrightHolder"
-            >&nbsp;<a
-              href="https://mathjiajia.github.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Jia Jia</a
-            ></span
-          >&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-      <div class="footer-line"></div>
-      <div class="footer-line"></div>
-    </div></footer></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i>2021 - 2024<span class="author">&nbsp;<a href="https://mathjiajia.github.io/" target="_blank" rel="noopener noreferrer">Jia Jia</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
 
-    <div id="fixed-buttons"><a
-        href="#back-to-top"
-        id="back-to-top-button"
-        class="fixed-button"
-        title="Back to Top"
-      >
-        <i class="fas fa-arrow-up fa-fw"></i>
-      </a><a
-        href="#"
-        id="view-comments"
-        class="fixed-button"
-        title="View Comments"
-      >
-        <i class="fas fa-comment fa-fw"></i>
-      </a>
-    </div><div class="assets"><link
-      rel="stylesheet"
-      href="/lib/lightgallery/lightgallery.min.css"
-      
-    /><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"twikoo":{"commentCount":true,"el":"#twikoo","envId":"https://twikoo-comments-doit.vercel.app/","lang":"en"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"QIR9G366NL","algoliaIndex":"gh","algoliaSearchKey":"fa2c4e59e4d9da7afecfe99c54b233fc","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":300,"type":"algolia"},"sharerjs":true,"table":{"sort":true}};</script><script
-    type="text/javascript"
+    <div id="fixed-buttons" class="print:!tw-hidden"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"twikoo":{"commentCount":true,"el":"#twikoo","envId":"https://twikoo-comments-doit.vercel.app/","lang":"en"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"QIR9G366NL","algoliaIndex":"gh","algoliaSearchKey":"fa2c4e59e4d9da7afecfe99c54b233fc","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":300,"type":"algolia"},"sharerjs":true,"table":{"sort":true}};</script><script
     src="/lib/tablesort/tablesort.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/lib/lightgallery/lightgallery.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/lib/lightgallery/lg-thumbnail.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/lib/lightgallery/lg-zoom.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/lib/clipboard/clipboard.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/lib/sharer/sharer.min.js"
     
   ></script><script
-    type="text/javascript"
     src="/js/theme.min.js"
     
       defer
     
   ></script><script
-    type="text/javascript"
     src="/lib/twikoo/twikoo.all.min.js"
     
       defer
     
   ></script><script
-    type="text/javascript"
     src="/js/twikoo.min.js"
     
       defer
     
   ></script></div>
 </body>
+
 </html>
