@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Editors - Series - Jia Jia Math</title>
-        <link>https://mathjiajia.github.io/series/editors/</link>
+        <link>http://localhost:1313/series/editors/</link>
         <description>Editors - Series - Jia Jia Math</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
-            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/series/editors/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/series/editors/" rel="self" type="application/rss+xml" /><item>
     <title>A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</title>
-    <link>https://mathjiajia.github.io/vscode-and-latex/</link>
+    <link>http://localhost:1313/vscode-and-latex/</link>
     <pubDate>Tue, 30 Nov 2021 18:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/vscode-and-latex/</guid>
+    </author><guid>http://localhost:1313/vscode-and-latex/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://mathjiajia.github.io/img/latex-vscode-title.png" referrerpolicy="no-referrer">
             </div><p>There are dozens of TeX editors so far, such as Texpad and WinEdt.</p>]]></description>
 </item><item>
     <title>A Quick Guide on Writing LaTeX in Neovim</title>
-    <link>https://mathjiajia.github.io/neovim-latex/</link>
+    <link>http://localhost:1313/neovim-latex/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/neovim-latex/</guid>
+    </author><guid>http://localhost:1313/neovim-latex/</guid>
     <description><![CDATA[<p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>]]></description>
 </item></channel>
 </rss>
