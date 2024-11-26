@@ -1,43 +1,43 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Jia Jia Math</title>
-        <link>https://mathjiajia.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - Jia Jia Math</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
-            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
     <title>LaTeX</title>
-    <link>https://mathjiajia.github.io/tags/latex/</link>
+    <link>http://localhost:1313/tags/latex/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/tags/latex/</guid>
+    </author><guid>http://localhost:1313/tags/latex/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Lua</title>
-    <link>https://mathjiajia.github.io/tags/lua/</link>
+    <link>http://localhost:1313/tags/lua/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/tags/lua/</guid>
+    </author><guid>http://localhost:1313/tags/lua/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Neovim</title>
-    <link>https://mathjiajia.github.io/tags/neovim/</link>
+    <link>http://localhost:1313/tags/neovim/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/tags/neovim/</guid>
+    </author><guid>http://localhost:1313/tags/neovim/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Snippets</title>
-    <link>https://mathjiajia.github.io/tags/snippets/</link>
+    <link>http://localhost:1313/tags/snippets/</link>
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/tags/snippets/</guid>
+    </author><guid>http://localhost:1313/tags/snippets/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>VS Code</title>
-    <link>https://mathjiajia.github.io/tags/vs-code/</link>
+    <link>http://localhost:1313/tags/vs-code/</link>
     <pubDate>Tue, 30 Nov 2021 18:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/tags/vs-code/</guid>
+    </author><guid>http://localhost:1313/tags/vs-code/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
