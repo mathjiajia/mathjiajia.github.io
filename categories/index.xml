@@ -1,15 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - Jia Jia Math</title>
-        <link>https://mathjiajia.github.io/categories/</link>
-        <description>Categories - Category - Jia Jia Math</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
-            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Tools</title>
-    <link>https://mathjiajia.github.io/categories/tools/</link>
-    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
-        <name>Jia Jia</name>
-    </author><guid>https://mathjiajia.github.io/categories/tools/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jia Jia Math</title>
+    <link>https://mathjiajia.github.io/categories/</link>
+    <description>Recent content in Categories on Jia Jia Math</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
+    <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 01 Aug 2022 09:24:00 +0800</lastBuildDate>
+    <atom:link href="https://mathjiajia.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>https://mathjiajia.github.io/categories/tools/</link>
+      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
+      <guid>https://mathjiajia.github.io/categories/tools/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>
