@@ -1,50 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Jia Jia Math</title>
-    <link>https://mathjiajia.github.io/tags/</link>
-    <description>Recent content in Tags on Jia Jia Math</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
-    <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Aug 2022 09:24:00 +0800</lastBuildDate>
-    <atom:link href="https://mathjiajia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LaTeX</title>
-      <link>https://mathjiajia.github.io/tags/latex/</link>
-      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/tags/latex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lua</title>
-      <link>https://mathjiajia.github.io/tags/lua/</link>
-      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/tags/lua/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Neovim</title>
-      <link>https://mathjiajia.github.io/tags/neovim/</link>
-      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/tags/neovim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Snippets</title>
-      <link>https://mathjiajia.github.io/tags/snippets/</link>
-      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/tags/snippets/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VS Code</title>
-      <link>https://mathjiajia.github.io/tags/vs-code/</link>
-      <pubDate>Tue, 30 Nov 2021 18:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/tags/vs-code/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Jia Jia Math</title>
+        <link>https://mathjiajia.github.io/tags/</link>
+        <description>Tags - Tag - Jia Jia Math</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
+            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>LaTeX</title>
+    <link>https://mathjiajia.github.io/tags/latex/</link>
+    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/tags/latex/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Lua</title>
+    <link>https://mathjiajia.github.io/tags/lua/</link>
+    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/tags/lua/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Neovim</title>
+    <link>https://mathjiajia.github.io/tags/neovim/</link>
+    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/tags/neovim/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Snippets</title>
+    <link>https://mathjiajia.github.io/tags/snippets/</link>
+    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/tags/snippets/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>VS Code</title>
+    <link>https://mathjiajia.github.io/tags/vs-code/</link>
+    <pubDate>Tue, 30 Nov 2021 18:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/tags/vs-code/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

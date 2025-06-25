@@ -1,22 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Neovim on Jia Jia Math</title>
-    <link>https://mathjiajia.github.io/tags/neovim/</link>
-    <description>Recent content in Neovim on Jia Jia Math</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
-    <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 10 May 2022 15:20:00 +0800</lastBuildDate>
-    <atom:link href="https://mathjiajia.github.io/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Quick Guide on Writing LaTeX in Neovim</title>
-      <link>https://mathjiajia.github.io/neovim-latex/</link>
-      <pubDate>Tue, 30 Nov 2021 20:00:00 +0800</pubDate><author>jia_jia@u.nus.edu (Jia Jia)</author>
-      <guid>https://mathjiajia.github.io/neovim-latex/</guid>
-      <description>&lt;p&gt;In last post, I shared a minimal configuration of &lt;code&gt;LaTeX Workshop&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Neovim - Tag - Jia Jia Math</title>
+        <link>https://mathjiajia.github.io/tags/neovim/</link>
+        <description>Neovim - Tag - Jia Jia Math</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jia_jia@u.nus.edu (Jia Jia)</managingEditor>
+            <webMaster>jia_jia@u.nus.edu (Jia Jia)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</lastBuildDate><atom:link href="https://mathjiajia.github.io/tags/neovim/" rel="self" type="application/rss+xml" /><item>
+    <title>A Quick Guide on Writing LaTeX in Neovim</title>
+    <link>https://mathjiajia.github.io/neovim-latex/</link>
+    <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
+        <name>Jia Jia</name>
+    </author><guid>https://mathjiajia.github.io/neovim-latex/</guid>
+    <description><![CDATA[<p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>]]></description>
+</item></channel>
 </rss>
