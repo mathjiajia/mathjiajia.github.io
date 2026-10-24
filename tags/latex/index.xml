@@ -10,7 +10,9 @@
     <pubDate>Tue, 30 Nov 2021 20:00:00 &#43;0800</pubDate><author>
         <name>Jia Jia</name>
     </author><guid>https://mathjiajia.github.io/neovim-latex/</guid>
-    <description><![CDATA[<p>In last post, I shared a minimal configuration of <code>LaTeX Workshop</code>.</p>]]></description>
+    <description><![CDATA[<p>In the <a href="/vscode-and-latex/" rel="">previous post</a>, I shared a configuration for LaTeX Workshop in VS Code.
+Here I will explain how to build a LaTeX writing environment in Neovim,
+with particular attention to the snippets I use for mathematics.</p>]]></description>
 </item><item>
     <title>A Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code</title>
     <link>https://mathjiajia.github.io/vscode-and-latex/</link>
